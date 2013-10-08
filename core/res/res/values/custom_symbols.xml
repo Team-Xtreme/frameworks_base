@@ -85,4 +85,7 @@
   <!-- Whether to show navbar when keyguard host view is visible -->
   <java-symbol type="bool" name="config_showNavbarInKeyguard" />
 
+  <!-- Gesture Sensor -->
+  <java-symbol type="bool" name="config_enableGestureService" />
+
 </resources>

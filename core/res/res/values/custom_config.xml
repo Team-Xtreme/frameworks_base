@@ -105,4 +105,7 @@
     <!-- Whether to show navbar when keyguard host view is visible -->
     <bool name="config_showNavbarInKeyguard">false</bool>
 
+    <!-- True if the gesture service should be started at system start -->
+    <bool name="config_enableGestureService">false</bool>
+
 </resources>
