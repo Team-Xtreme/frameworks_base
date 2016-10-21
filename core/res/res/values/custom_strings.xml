@@ -24,4 +24,10 @@
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_preventpower">Allows an app to override the power key.</string>
 
+    <!-- Screen pinning exit mode -->
+    <string name="lock_to_app_toast_back">To unpin this screen, touch and hold Back button</string>
+    <string name="lock_to_app_toast_power">To unpin this screen, touch and hold Power button</string>
+    <string name="lock_to_app_toast_back_nav_visible">To unpin this screen, touch and hold Back button or touch and hold Back and Overview on the navigation bar</string>
+    <string name="lock_to_app_toast_power_nav_visible">To unpin this screen, touch and hold Power button or touch and hold Back and Overview on the navigation bar</string>
+
 </resources>
