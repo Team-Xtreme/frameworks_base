@@ -116,4 +116,11 @@
     <!-- Ambient music -->
     <bool name="config_canForceDozeNotifications">true</bool>
 
+    <!-- Screen pinning exit mode
+        0 - Navigation bar (default behavior)
+        1 - Long press back button
+        2 - Long press power button
+    -->
+    <integer name="config_screenPinningExitMode">0</integer>
+
 </resources>
