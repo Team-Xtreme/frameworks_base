@@ -84,4 +84,11 @@ interface IStatusBarService
      */
     void toggleNavigationBar(boolean enable);
     void toggleCameraFlash();
+    void toggleRecentApps();
+    void toggleSplitScreen();
+    void preloadRecentApps();
+    void cancelPreloadRecentApps();
+    void startAssist(in Bundle args);
+    void screenPinningStateChanged(boolean enabled);
+    void toggleFlashlight();
 }
