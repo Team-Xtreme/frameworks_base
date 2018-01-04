@@ -266,6 +266,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
+import com.android.internal.util.custom.NavbarUtils;
+import android.app.ActivityManagerNative;
+
 public class StatusBar extends SystemUI implements DemoMode,
         DragDownHelper.DragDownCallback, ActivityStarter, OnUnlockMethodChangedListener,
         OnHeadsUpChangedListener, VisualStabilityManager.Callback, CommandQueue.Callbacks,
@@ -1069,10 +1072,21 @@ public class StatusBar extends SystemUI implements DemoMode,
             mNotificationPanelDebugText.setVisibility(View.VISIBLE);
         }
 
+        boolean isInLockTaskMode = false;
+        try {
+            isInLockTaskMode = ActivityManagerNative.getDefault().isInLockTaskMode();
+        } catch (RemoteException e) {
+        }
+        if (isInLockTaskMode && NavbarUtils.shouldShowNavbarInLockTaskMode(mContext)){
+            NavbarUtils.lockNavigationBar(mContext);
+        }else{
+            NavbarUtils.restoreNavigationBar(mContext, false);
+        }
+
         try {
             boolean showNav = mWindowManagerService.hasNavigationBar();
             if (DEBUG) Log.v(TAG, "hasNavigationBar=" + showNav);
-            if (showNav) {
+            if (showNav || NavbarUtils.isNavigationBarLocked(mContext)) {
                 createNavigationBar();
             }
         } catch (RemoteException ex) {

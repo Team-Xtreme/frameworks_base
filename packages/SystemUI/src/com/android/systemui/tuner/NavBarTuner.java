@@ -66,10 +66,11 @@ import android.support.v14.preference.SwitchPreference;
 import java.util.ArrayList;
 
 import com.android.internal.util.custom.NavbarUtils;
-import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
+import android.content.ContentResolver;
+import android.database.ContentObserver;
+import android.provider.Settings;
+import android.net.Uri;
 
 public class NavBarTuner extends TunerPreferenceFragment {
 
@@ -96,15 +97,32 @@ public class NavBarTuner extends TunerPreferenceFragment {
     private final ArrayList<Tunable> mTunables = new ArrayList<>();
     private Handler mHandler;
 
-    private BroadcastReceiver mLockTaskReceiver;
-    private static final String ACTION_LOCK_TASK_MODE_CHANGED = "android.os.action.LOCK_TASK_MODE_CHANGED";
+    private NavbarLockObserver mNavbarLockObserver;
+    private class NavbarLockObserver extends ContentObserver {
+        NavbarLockObserver(Handler handler) {
+            super(handler);
+        }
+        ContentResolver resolver = getActivity().getContentResolver();
 
-    private class LockTaskReceiver extends BroadcastReceiver {
+        void observe() {
+            resolver.registerContentObserver(Settings.Secure.getUriFor(
+                    Settings.Secure.NAVIGATION_BAR_LOCKED),
+                    false, this, UserHandle.USER_ALL);
+        }
+
+        void unregister() {
+            resolver.unregisterContentObserver(this);
+        }
+
         @Override
-        public void onReceive(Context context, Intent intent) {
-            if (ACTION_LOCK_TASK_MODE_CHANGED.equals(intent.getAction())) {
-                updateShowNavbarSwitch();
+        public void onChange(boolean selfChange, Uri uri) {
+            if (uri.equals(Settings.Secure.getUriFor(Settings.Secure.NAVIGATION_BAR_LOCKED))) {
+                update();
             }
+        }
+
+        public void update() {
+            updateShowNavbarSwitch();
         }
     }
 
@@ -112,10 +130,6 @@ public class NavBarTuner extends TunerPreferenceFragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         mHandler = new Handler();
         super.onCreate(savedInstanceState);
-        mLockTaskReceiver = new LockTaskReceiver();
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(ACTION_LOCK_TASK_MODE_CHANGED);
-        getContext().registerReceiver(mLockTaskReceiver, filter);
     }
 
     @Override
@@ -138,26 +152,24 @@ public class NavBarTuner extends TunerPreferenceFragment {
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.nav_bar_tuner);
         mShowNavbar = (SwitchPreference) findPreference(SHOW_NAVBAR);
-        updateShowNavbarSwitch();
         bindLayout((ListPreference) findPreference(LAYOUT));
         bindButton(NAV_BAR_LEFT, NAVSPACE, LEFT);
         bindButton(NAV_BAR_RIGHT, MENU_IME, RIGHT);
+
+        mNavbarLockObserver = new NavbarLockObserver(mHandler);
+        mNavbarLockObserver.observe();
+        mNavbarLockObserver.update();
     }
 
     private void updateShowNavbarSwitch(){
-        if (NavbarUtils.shouldShowNavbarInLockTaskMode(getActivity()) && NavbarUtils.isInLockTaskMode()){
-            mShowNavbar.setEnabled(false);
-            mShowNavbar.setChecked(NavbarUtils.isNavigationBarPreviouslyEnabled(getActivity()));
-        }else{
-            mShowNavbar.setEnabled(true);
-            mShowNavbar.setChecked(NavbarUtils.isNavigationBarEnabled(getActivity()));
-        }
+        mShowNavbar.setEnabled(!NavbarUtils.isNavigationBarLocked(getActivity()));
+        mShowNavbar.setChecked(NavbarUtils.isNavigationBarEnabled(getActivity()));
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if  (preference == mShowNavbar && mShowNavbar.isEnabled()) {
-            if (NavbarUtils.shouldShowNavbarInLockTaskMode(getActivity()) && NavbarUtils.isInLockTaskMode()){
+            if (NavbarUtils.isNavigationBarLocked(getActivity())){
                 return true;
             }
             mShowNavbar.setEnabled(false);
@@ -179,11 +191,11 @@ public class NavBarTuner extends TunerPreferenceFragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        mNavbarLockObserver.unregister();
         try {
             mTunables.forEach(t -> Dependency.get(TunerService.class).removeTunable(t));
         }catch (Exception e){
         }
-        getContext().unregisterReceiver(mLockTaskReceiver);
     }
 
     private void addTunable(Tunable tunable, String... keys) {

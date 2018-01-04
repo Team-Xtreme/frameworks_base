@@ -80,8 +80,7 @@ public class ScreenPinningRequest implements View.OnClickListener {
             mRequestWindow = null;
         }
         if (!okButtonTouched && NavbarUtils.shouldShowNavbarInLockTaskMode(mContext)){
-            NavbarUtils.setNavigationBarEnabled(mContext, NavbarUtils.isNavigationBarPreviouslyEnabled(mContext));
-            NavbarUtils.setNavigationBarPreviouslyEnabled(mContext);
+            NavbarUtils.restoreNavigationBar(mContext, true);
         }
     }
 
@@ -168,10 +167,7 @@ public class ScreenPinningRequest implements View.OnClickListener {
             float density = metrics.density;
             int rotation = RotationUtils.getRotation(mContext);
 
-            if (NavbarUtils.shouldShowNavbarInLockTaskMode(mContext)){
-                NavbarUtils.setNavigationBarPreviouslyEnabled(mContext);
-                NavbarUtils.setNavigationBarEnabled(mContext,true);
-            }
+            NavbarUtils.lockNavigationBar(mContext);
 
             inflateView(rotation);
             int bgColor = mContext.getColor(

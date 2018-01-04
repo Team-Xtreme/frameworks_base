@@ -16,7 +16,6 @@
 package com.android.internal.util.custom;
 
 import android.content.Context;
-import android.app.ActivityManagerNative;
 
 import android.os.SystemProperties;
 import android.content.ContentResolver;
@@ -24,6 +23,9 @@ import android.provider.Settings;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.os.Handler;
+import android.os.ServiceManager;
+
+import com.android.internal.statusbar.IStatusBarService;
 
 public class NavbarUtils {
 
@@ -72,26 +74,35 @@ public class NavbarUtils {
         }, 1000);
     }
 
-    public static boolean isNavigationBarPreviouslyEnabled(Context context){
+    public static boolean isNavigationBarLocked(Context context){
         return Settings.Secure.getIntForUser(
-                context.getContentResolver(), Settings.Secure.NAVIGATION_BAR_PREVIOUSLY_ENABLED, isNavigationBarEnabled(context) ? 1 : 0,
+                context.getContentResolver(), Settings.Secure.NAVIGATION_BAR_LOCKED, 0,
                 UserHandle.USER_CURRENT) == 1;
     }
 
-    public static void setNavigationBarPreviouslyEnabled(Context context){
+    public static void lockNavigationBar(Context context){
         Settings.Secure.putIntForUser(context.getContentResolver(),
-                Settings.Secure.NAVIGATION_BAR_PREVIOUSLY_ENABLED, isNavigationBarEnabled(context) ? 1 : 0, UserHandle.USER_CURRENT);
+                Settings.Secure.NAVIGATION_BAR_LOCKED, 1, UserHandle.USER_CURRENT);
+        toggleNavigationBarDirectly(true);
+    }
+
+    public static void restoreNavigationBar(Context context, Boolean toggle){
+        Settings.Secure.putIntForUser(context.getContentResolver(),
+                Settings.Secure.NAVIGATION_BAR_LOCKED, 0, UserHandle.USER_CURRENT);
+        if (toggle){
+            toggleNavigationBarDirectly(isNavigationBarEnabled(context));
+        }
+    }
+    
+    private static void toggleNavigationBarDirectly(boolean toggle){
+        try {
+            IStatusBarService mStatusBarService = IStatusBarService.Stub.asInterface(ServiceManager.getService("statusbar"));
+            mStatusBarService.toggleNavigationBar(toggle);
+        } catch (RemoteException e) {
+        }
     }
 
     public static boolean shouldShowNavbarInLockTaskMode(Context context){
         return context.getResources().getBoolean(com.android.internal.R.bool.config_showNavbarInLockTaskMode);
-    }
-
-    public static boolean isInLockTaskMode(){
-        try {
-            return ActivityManagerNative.getDefault().isInLockTaskMode();
-        } catch (RemoteException e){
-            return false;
-        }
     }
 }
