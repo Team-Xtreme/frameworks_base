@@ -99,4 +99,7 @@
         <item>airplane</item>
     </string-array>
 
+    <!-- Whether to show navbar when fingerprint sensor is busy -->
+    <bool name="config_showNavbarWhenFingerprintSensorBusy">false</bool>
+
 </resources>
