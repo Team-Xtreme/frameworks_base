@@ -194,7 +194,7 @@ public class CustomUtils {
     }
 
     public static void toggleCameraFlash() {
-        FireActions.toggleCameraFlash();
+        FireActions.toggleFlashlight();
     }
 
     public static ActivityInfo getRunningActivityInfo(Context context) {
@@ -259,11 +259,11 @@ public class CustomUtils {
             }
         }
 
-        public static void toggleCameraFlash() {
+        public static void toggleFlashlight() {
             IStatusBarService service = getStatusBarService();
             if (service != null) {
                 try {
-                    service.toggleCameraFlash();
+                    service.toggleFlashlight();
                 } catch (RemoteException e) {
                     // do nothing.
                 }
