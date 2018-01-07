@@ -102,4 +102,7 @@
     <!-- Whether to show navbar when fingerprint sensor is busy -->
     <bool name="config_showNavbarWhenFingerprintSensorBusy">false</bool>
 
+    <!-- Whether to show navbar when keyguard host view is visible -->
+    <bool name="config_showNavbarInKeyguard">false</bool>
+
 </resources>

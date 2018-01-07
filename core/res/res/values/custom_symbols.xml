@@ -82,4 +82,7 @@
   <!-- Whether to show navbar when fingerprint sensor is busy -->
   <java-symbol type="bool" name="config_showNavbarWhenFingerprintSensorBusy" />
 
+  <!-- Whether to show navbar when keyguard host view is visible -->
+  <java-symbol type="bool" name="config_showNavbarInKeyguard" />
+
 </resources>
