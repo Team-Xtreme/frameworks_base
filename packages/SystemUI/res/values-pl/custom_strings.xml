@@ -60,5 +60,13 @@
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
   <string name="custom_hint">Przesuń palcem od ikony, aby uruchomić</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Zrzut ekranu usunięty</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Uruchom ponownie</string>
+  <string name="global_action_restart_advanced">Zaawansowane</string>
+  <string name="global_action_restart_recovery">Tryb recovery</string>
+  <string name="global_action_restart_bootloader">Uruchom w trybie Bootloader</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Szybki restart</string>
+  <string name="global_action_screenshot">Zrzut ekranu</string>
 </resources>

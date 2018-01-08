@@ -17,5 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
-  <!-- Global actions -->
+  <string name="system_error_vendorprint">आपका विक्रेता छवि प्रणाली से मेल नहीं खाता। कृपया अपने डिवाइस के लिए <xliff:g id="string">%s</xliff:g> विक्रेता छवि फ़्लैश करे</string>
 </resources>

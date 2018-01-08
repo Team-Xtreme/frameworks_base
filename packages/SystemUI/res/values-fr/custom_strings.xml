@@ -22,15 +22,39 @@
   <!-- volte icon switch -->
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_tile_app_na">L\'application ne prend pas en charge le PiP</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Caféine</string>
+  <string name="accessibility_quick_settings_caffeine_off">Mode caféine désactivé</string>
+  <string name="accessibility_quick_settings_caffeine_on">Mode caféine activé</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_ring">Sonnerie</string>
+  <string name="quick_settings_sound_dnd">Ne pas déranger</string>
   <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Langues</string>
+  <string name="quick_settings_locale_more_locales_toast">Veuillez configurer plusieurs langues pour utiliser cette fonctionnalité</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Redémarrer</string>
+  <string name="quick_settings_reboot_recovery_label">Recovery</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Capture d\'écran</string>
+  <string name="quick_settings_region_screenshot_label">Capture d\'écran partielle</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Par défaut</string>
+  <string name="lockscreen_hidden">Aucun</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Balayez l\'icône pour lancer l\'application</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Capture d\'écran supprimée</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Redémarrer</string>
+  <string name="global_action_restart_advanced">Paramètres avancés</string>
+  <string name="global_action_restart_recovery">Recovery</string>
+  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Redémarrage rapide</string>
+  <string name="global_action_screenshot">Capture d\'écran</string>
 </resources>

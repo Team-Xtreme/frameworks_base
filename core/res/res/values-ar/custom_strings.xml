@@ -17,5 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
-  <!-- Global actions -->
+  <string name="system_error_vendorprint">صورة المورد الخاص بك لا تتطابق مع هذا النظام. الرجاء عمل فلاش للصورة 
+<xliff:g id="string">%s</xliff:g>من جهازك</string>
 </resources>

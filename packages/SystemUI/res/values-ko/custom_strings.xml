@@ -19,13 +19,30 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">대시 충전 중 (<xliff:g id="charging_time_left" example="4 시간 2 분">%s</xliff:g> 후 충전 완료)</string>
+  <string name="keyguard_plugged_in_dash_charging">대시 충전 중</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">PiP</string>
+  <string name="quick_settings_pip_tile_app_na">앱이 PiP를 지원하지 않습니다</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">카페인</string>
+  <string name="accessibility_quick_settings_caffeine_off">카페인 꺼짐</string>
+  <string name="accessibility_quick_settings_caffeine_on">카페인 켜짐</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">소리</string>
+  <string name="quick_settings_sound_ring">벨소리</string>
+  <string name="quick_settings_sound_vibrate">진동</string>
+  <string name="quick_settings_sound_dnd">방해 금지</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">헤드 업</string>
+  <string name="accessibility_quick_settings_heads_up_off">헤드 업 꺼짐.</string>
+  <string name="accessibility_quick_settings_heads_up_on">헤드 업 켜짐.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">언어</string>
   <!-- Reboot/Recovery QS Tile -->
   <!-- Screenshot QS tile -->
   <!-- VPN icon -->
@@ -33,4 +50,11 @@
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
   <!-- Screenshot Delete Toast -->
   <!-- Global actions -->
+  <string name="global_action_restart_system">다시 시작</string>
+  <string name="global_action_restart_advanced">고급</string>
+  <string name="global_action_restart_recovery">복구 모드</string>
+  <string name="global_action_restart_bootloader">부트로더</string>
+  <string name="global_action_restart_ui">시스템UI</string>
+  <string name="global_action_restart_hot">빠른 다시 시작</string>
+  <string name="global_action_screenshot">스크린샷</string>
 </resources>

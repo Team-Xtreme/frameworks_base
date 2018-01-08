@@ -19,18 +19,55 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">شحن الداش(
+<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> حتي يكتمل)</string>
+  <string name="keyguard_plugged_in_dash_charging">شحن الداش</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">PiP</string>
+  <string name="quick_settings_pip_tile_app_na">التطبيق لا يدعم PiP</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">وضع الكافيين</string>
+  <string name="accessibility_quick_settings_caffeine_off">ايقاف وضع الكافيين</string>
+  <string name="accessibility_quick_settings_caffeine_on">تشغيل وضع الكافيين</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">الصوت</string>
+  <string name="quick_settings_sound_ring">رنين</string>
+  <string name="quick_settings_sound_vibrate">اهتزاز</string>
+  <string name="quick_settings_sound_dnd">عدم الإزعاج</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">وضع التنبيه</string>
+  <string name="accessibility_quick_settings_heads_up_off">إيقاف وضع التنبيه.</string>
+  <string name="accessibility_quick_settings_heads_up_on">تشغيل وضع التنبيه.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">تم إيقاف وضع التبيه.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">تم تشغيل وضع التنبيه.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">اللغة</string>
+  <string name="quick_settings_locale_more_locales_toast">الرجاء القيام بتهيئة لغات متعددة لتمكين وظيفة التبديل</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">آعد التشغيل</string>
+  <string name="quick_settings_reboot_recovery_label">إسترجع</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">لقطة الشاشة</string>
+  <string name="quick_settings_region_screenshot_label">صورة لقطة شاشة جزئية</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">إفتراضي</string>
+  <string name="lockscreen_hidden">بدون</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">حرك الأيقونة لتشغيل التطبيق</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">تم حذف لقطة الشاشة</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">آعد التشغيل</string>
+  <string name="global_action_restart_advanced">إعدادات متقدمة</string>
+  <string name="global_action_restart_recovery">إسترجع</string>
+  <string name="global_action_restart_bootloader">أداة تشغيل النظام</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">إعادة تشغيل سريع</string>
+  <string name="global_action_screenshot">لقط الشاشة</string>
 </resources>

@@ -19,18 +19,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash 闪充 (还需<xliff:g id="charging_time_left" example="4小时2分钟">%s</xliff:g> 充满)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash 闪充</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">画中画</string>
+  <string name="quick_settings_pip_tile_app_na">此应用程序不支持画中画模式</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">保持亮屏</string>
+  <string name="accessibility_quick_settings_caffeine_off">关闭常亮</string>
+  <string name="accessibility_quick_settings_caffeine_on">开启常亮</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">声音</string>
+  <string name="quick_settings_sound_ring">响铃</string>
+  <string name="quick_settings_sound_vibrate">震动</string>
+  <string name="quick_settings_sound_dnd">请勿打扰</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">浮动通知</string>
+  <string name="accessibility_quick_settings_heads_up_off">关闭浮动通知。</string>
+  <string name="accessibility_quick_settings_heads_up_on">开启浮动通知</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">浮动通知已关闭。</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">浮动通知已开启。</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">语言</string>
+  <string name="quick_settings_locale_more_locales_toast">请配置多种语言以使用切换功能</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">重新启动</string>
+  <string name="quick_settings_reboot_recovery_label">恢复模式</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">屏幕截图</string>
+  <string name="quick_settings_region_screenshot_label">局部截图</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">默认​​​​​</string>
+  <string name="lockscreen_hidden">无</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">滑动图标以启动</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">屏幕截图已删除</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">重新启动</string>
+  <string name="global_action_restart_advanced">高级</string>
+  <string name="global_action_restart_recovery">恢复模式</string>
+  <string name="global_action_restart_bootloader">引导模式</string>
+  <string name="global_action_restart_ui">用户界面</string>
+  <string name="global_action_restart_hot">快速重启</string>
+  <string name="global_action_screenshot">屏幕截图</string>
 </resources>

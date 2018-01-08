@@ -60,5 +60,13 @@
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
   <string name="custom_hint">Spustit přejetím prstem od ikony</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Snímek obrazovky byl smazán</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Restartovat</string>
+  <string name="global_action_restart_advanced">Rozšířené</string>
+  <string name="global_action_restart_recovery">Recovery</string>
+  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Rychlý restart</string>
+  <string name="global_action_screenshot">Snímek obrazovky</string>
 </resources>

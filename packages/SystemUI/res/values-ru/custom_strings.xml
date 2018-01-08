@@ -19,18 +19,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Быстрая зарядка (<xliff:g id="charging_time_left" example="4 часа и 2 минуты">%s</xliff:g> до конца)</string>
+  <string name="keyguard_plugged_in_dash_charging">Быстрая зарядка</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">Картинка в картинке (PiP)</string>
+  <string name="quick_settings_pip_tile_app_na">Приложение не поддерживает режим \"Картинка в картинке\"</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Запрет сна</string>
+  <string name="accessibility_quick_settings_caffeine_off">Запрет сна выкл.</string>
+  <string name="accessibility_quick_settings_caffeine_on">Запрет сна вкл.</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Звук</string>
+  <string name="quick_settings_sound_ring">Рингтон</string>
+  <string name="quick_settings_sound_vibrate">Вибрация</string>
+  <string name="quick_settings_sound_dnd">Не беспокоить</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
+  <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления выкл.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Всплывающие уведомления вкл.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Язык</string>
+  <string name="quick_settings_locale_more_locales_toast">Пожалуйста, настройте несколько языков, чтобы активировать функцию</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Перезагрузка</string>
+  <string name="quick_settings_reboot_recovery_label">Режим восстановления</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Скриншот</string>
+  <string name="quick_settings_region_screenshot_label">Скриншот выбранной области экрана</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">По умолчанию</string>
+  <string name="lockscreen_hidden">Нет</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Проведите от значка для запуска</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Скриншот удалён</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Перезагрузка</string>
+  <string name="global_action_restart_advanced">Дополнительно</string>
+  <string name="global_action_restart_recovery">Режим восстановления</string>
+  <string name="global_action_restart_bootloader">Загрузчик</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Быстрая перезагрузка</string>
+  <string name="global_action_screenshot">Скриншот</string>
 </resources>

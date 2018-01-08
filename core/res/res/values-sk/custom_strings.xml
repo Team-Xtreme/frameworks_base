@@ -18,5 +18,4 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Váš dodávateľ obrazu sa nezhoduje so systémom. Prosím napáľte obraz pre vaše zariadenie <xliff:g id="string">%s</xliff:g></string>
-  <!-- Global actions -->
 </resources>
