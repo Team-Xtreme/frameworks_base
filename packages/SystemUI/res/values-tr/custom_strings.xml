@@ -23,8 +23,8 @@
   <!-- volte icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <string name="keyguard_indication_dash_charging_time">Hızlı Şarj Oluyor (tam dolmasına <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> kaldı)</string>
-  <string name="keyguard_plugged_in_dash_charging">Hızlı Şarj Oluyor</string>
+  <string name="keyguard_indication_dash_charging_time">Dash Şarj Oluyor (tam dolmasına <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> kaldı)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash Şarj Oluyor</string>
   <!-- PiP Tile -->
   <string name="quick_settings_pip_label">PiP</string>
   <string name="quick_settings_pip_tile_app_na">Uygulama PiP\'i desteklemiyor</string>
@@ -58,8 +58,15 @@
   <string name="lockscreen_default">Varsayılan</string>
   <string name="lockscreen_hidden">Hiçbiri</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
-  <string name="custom_hint">Başlatmak için ikonu kaydırın</string>
+  <string name="custom_hint">Başlatmak için simgeyi kaydırın</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Ekran görüntüsü silindi</string>
   <!-- Global actions -->
   <string name="global_action_restart_system">Yeniden başlat</string>
+  <string name="global_action_restart_advanced">Gelişmiş</string>
+  <string name="global_action_restart_recovery">Kurtarma modu</string>
+  <string name="global_action_restart_bootloader">Önyükleyici</string>
+  <string name="global_action_restart_ui">Kullanıcı Arayüzü</string>
+  <string name="global_action_restart_hot">Hızlı yeniden başlat</string>
+  <string name="global_action_screenshot">Ekran görüntüsü</string>
 </resources>

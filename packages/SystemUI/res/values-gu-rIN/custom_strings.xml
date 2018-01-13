@@ -19,18 +19,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">વોલ્ટી</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash Charging (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> until full)</string>
+  <string name="keyguard_plugged_in_dash_charging">ડેશ ચાર્જીગ</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">PiP</string>
+  <string name="quick_settings_pip_tile_app_na">ઍપ pip સપોર્ટ નથી કરતી</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">કેફીન</string>
+  <string name="accessibility_quick_settings_caffeine_off">કેફીન બંધ</string>
+  <string name="accessibility_quick_settings_caffeine_on">કેફીન ચાલુ</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">ધ્વનિ</string>
+  <string name="quick_settings_sound_ring">રીંગ</string>
+  <string name="quick_settings_sound_vibrate">કંપન</string>
+  <string name="quick_settings_sound_dnd">પરેશાન ના કરો</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">હેડ્સ અપ</string>
+  <string name="accessibility_quick_settings_heads_up_off">હેડ્સ અપ બંધ.</string>
+  <string name="accessibility_quick_settings_heads_up_on">હેડ્સ અપ ચાલુ.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">હેડ્સ અપ બંધ થઈ.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">હેડ્સ અપ ચાલુ કરી.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">ભાષા</string>
+  <string name="quick_settings_locale_more_locales_toast">ટૉગલ કાર્યક્ષમતાને સક્ષમ કરવા માટે બહુવિધ ભાષાને ગોઠવો</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">રીબુટ</string>
+  <string name="quick_settings_reboot_recovery_label">રીકવરી</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">સ્ક્રીનશોટ</string>
+  <string name="quick_settings_region_screenshot_label">અડધો સ્ક્રીનશોટ</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">વિપીએન</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">ડિફૉલ્ટ</string>
+  <string name="lockscreen_hidden">કંઈ નહીં</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">શરૂ કરવા માટે આઈકન પર સ્વાઇપ કરો</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">સ્ક્રીનશોટ કાઢી નાખ્યું</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">રીબૂટ</string>
+  <string name="global_action_restart_advanced">અદ્યતન</string>
+  <string name="global_action_restart_recovery">રિકવરી</string>
+  <string name="global_action_restart_bootloader">બુટલોડર</string>
+  <string name="global_action_restart_ui">સિસ્ટમUI</string>
+  <string name="global_action_restart_hot">ઝડપી રીબુટ</string>
+  <string name="global_action_screenshot">સ્ક્રીનશોટ</string>
 </resources>

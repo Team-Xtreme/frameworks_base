@@ -19,18 +19,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash Charging (fuldt opladet om <xliff:g id="Charging_TIME_LEFT">%s</xliff:g>)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash Charging</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">PiP</string>
+  <string name="quick_settings_pip_tile_app_na">App understøtter ikke PiP</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Koffein</string>
+  <string name="accessibility_quick_settings_caffeine_off">Koffein fra</string>
+  <string name="accessibility_quick_settings_caffeine_on">Koffein til</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Lyd</string>
+  <string name="quick_settings_sound_ring">Ring</string>
+  <string name="quick_settings_sound_vibrate">Vibrér</string>
+  <string name="quick_settings_sound_dnd">Forstyr ikke</string>
   <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Sprog</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Genstart</string>
+  <string name="quick_settings_reboot_recovery_label">Gendannelse</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Skærmbillede</string>
+  <string name="quick_settings_region_screenshot_label">Delvis skærmbillede</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Standard</string>
+  <string name="lockscreen_hidden">Ingen</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Skærmbillede slettet</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Genstart</string>
+  <string name="global_action_restart_advanced">Avanceret</string>
+  <string name="global_action_restart_recovery">Gendannelse</string>
+  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Hurtig genstart</string>
+  <string name="global_action_screenshot">Skærmbillede</string>
 </resources>

@@ -21,7 +21,7 @@
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_data_connection_hspap">HSPA +</string>
   <!-- volte icon switch -->
-  <string name="status_bar_volte">VOLTE</string>
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">Carga rápida (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hasta completar)</string>
   <string name="keyguard_plugged_in_dash_charging">Carga Rápida</string>
@@ -29,26 +29,26 @@
   <string name="quick_settings_pip_label">PiP</string>
   <string name="quick_settings_pip_tile_app_na">La aplicación no soporta PiP</string>
   <!-- Caffeine QS Tile -->
-  <string name="quick_settings_caffeine_label">Caffeine</string>
+  <string name="quick_settings_caffeine_label">Cafeína</string>
   <string name="accessibility_quick_settings_caffeine_off">Cafeína desactivada</string>
   <string name="accessibility_quick_settings_caffeine_on">Cafeína activada</string>
   <!-- Sound QS Tile -->
   <string name="quick_settings_sound_label">Sonido</string>
-  <string name="quick_settings_sound_ring">Sonar</string>
+  <string name="quick_settings_sound_ring">Timbre</string>
   <string name="quick_settings_sound_vibrate">Vibrar</string>
   <string name="quick_settings_sound_dnd">No molestar</string>
   <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Notificación flotante</string>
-  <string name="accessibility_quick_settings_heads_up_off">Desactivar notificaciones emergentes.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Activar notificaciones emergentes.</string>
+  <string name="quick_settings_heads_up_label">Notificaciones emergentes</string>
+  <string name="accessibility_quick_settings_heads_up_off">Notificaciones emergentes desactivadas.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Notificaciones emergentes activadas.</string>
   <string name="accessibility_quick_settings_heads_up_changed_off">Notificaciones emergentes desactivadas.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Notificaciones emergentes activadas</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Notificaciones emergentes activadas.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Idioma</string>
   <string name="quick_settings_locale_more_locales_toast">Por favor, configure varios idiomas para habilitar la funcionalidad de alternar</string>
   <!-- Reboot/Recovery QS Tile -->
   <string name="quick_settings_reboot_label">Reiniciar</string>
-  <string name="quick_settings_reboot_recovery_label">Modo Recovery</string>
+  <string name="quick_settings_reboot_recovery_label">Modo Recuperación</string>
   <!-- Screenshot QS tile -->
   <string name="quick_settings_screenshot_label">Captura de pantalla</string>
   <string name="quick_settings_region_screenshot_label">Captura de pantalla parcial</string>
@@ -64,8 +64,8 @@
   <!-- Global actions -->
   <string name="global_action_restart_system">Reiniciar</string>
   <string name="global_action_restart_advanced">Avanzado</string>
-  <string name="global_action_restart_recovery">Modo Recovery</string>
-  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_recovery">Modo Recuperación</string>
+  <string name="global_action_restart_bootloader">Gestor de arranque</string>
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Reinicio rápido</string>
   <string name="global_action_screenshot">Captura de pantalla</string>

@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
+  <string name="system_error_vendorprint">మీ విక్రేత చిత్రం వ్యవస్థతో సరిపోలడం లేదు. దయచేసి మీ పరికరానికి <xliff:g id="string">%s</xliff:g> ఫ్లాష్ చేయండి</string>
 </resources>

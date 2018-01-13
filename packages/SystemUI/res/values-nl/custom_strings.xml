@@ -19,18 +19,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash Charging (<xliff:g id="charging_time_left" example="4 uur en 2 minuten">%s</xliff:g> tot vol)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash Charging</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">PiP</string>
+  <string name="quick_settings_pip_tile_app_na">De app ondersteunt geen PiP</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Cafeïne</string>
+  <string name="accessibility_quick_settings_caffeine_off">Cafeïne uit</string>
+  <string name="accessibility_quick_settings_caffeine_on">Cafeïne aan</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Geluid</string>
+  <string name="quick_settings_sound_ring">Ringtone</string>
+  <string name="quick_settings_sound_vibrate">Vibratie</string>
+  <string name="quick_settings_sound_dnd">Niet storen</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Heads up</string>
+  <string name="accessibility_quick_settings_heads_up_off">Heads up uit.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Heads up aan.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Heads up is uitgezet.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Heads up is aangezet.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Taal</string>
+  <string name="quick_settings_locale_more_locales_toast">Zet a.u.b. meerdere talen aan om de switch functionaliteit te gebruiken</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Herstarten</string>
+  <string name="quick_settings_reboot_recovery_label">Herstel</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Schermafdruk</string>
+  <string name="quick_settings_region_screenshot_label">Gedeeltelijke schermafdruk</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Standaard</string>
+  <string name="lockscreen_hidden">Geen</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Veeg vanaf icoon om te starten</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Schermafbeelding verwijderd</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Herstarten</string>
+  <string name="global_action_restart_advanced">Geavanceerd</string>
+  <string name="global_action_restart_recovery">Herstel</string>
+  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_ui">SysteemUI</string>
+  <string name="global_action_restart_hot">Snelle herstart</string>
+  <string name="global_action_screenshot">Schermafdruk</string>
 </resources>
