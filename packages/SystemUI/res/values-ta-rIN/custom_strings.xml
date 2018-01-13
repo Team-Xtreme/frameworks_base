@@ -19,18 +19,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA +</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">மின்னேற்றப்படுகிறது (நிறைவடைய <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> உள்ளன)</string>
+  <string name="keyguard_plugged_in_dash_charging">டாஷ் சார்ஜிங்</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">பிப்</string>
+  <string name="quick_settings_pip_tile_app_na">பயன்பாட்டை PiP க்கு ஆதரிக்கவில்லை</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">காஃபின்</string>
+  <string name="accessibility_quick_settings_caffeine_off">காஃபின் ஆஃப்</string>
+  <string name="accessibility_quick_settings_caffeine_on">கேஃபைன் ஆன்</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">ஒலி</string>
+  <string name="quick_settings_sound_ring">ரிங்</string>
+  <string name="quick_settings_sound_vibrate">அதிர்வு</string>
+  <string name="quick_settings_sound_dnd">தொந்தரவு செய்ய வேண்டாம்</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">ஹெட்ஸ் அப்</string>
+  <string name="accessibility_quick_settings_heads_up_off">ஹெட்ஸ் அப் ஆஃப்.</string>
+  <string name="accessibility_quick_settings_heads_up_on">ஹெட்ஸ் அப் ஆன்.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">ஹெட்ஸ் அப் ஆஃப் செய்யப்பட்டது.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">செயலி அறிவிப்பு தலைகள் செயல்படுத்தப்பட்டு உள்ளன.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">மொழி</string>
+  <string name="quick_settings_locale_more_locales_toast">செயல்பாட்டை மாற்றுவதற்கு பல மொழிகளையும் கட்டமைக்கவும்</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">மறுதொடக்கம்</string>
+  <string name="quick_settings_reboot_recovery_label">மீட்பு (ரெகவரி)</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">திரைப்பிடிப்பு</string>
+  <string name="quick_settings_region_screenshot_label">பகுதி திரைப்பிடிப்பு</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">விபிஎன்</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">இயல்புநிலை</string>
+  <string name="lockscreen_hidden">இவற்றில் எதுவுமில்லை</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">ஐகானிலிருந்து தொடங்குவதற்கு ஸ்வைப் செய்யவும்</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">ஸ்கிரீன்ஷாட் நீக்கப்பட்டது</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">மறுதொடக்கம்</string>
+  <string name="global_action_restart_advanced">மேம்பட்ட</string>
+  <string name="global_action_restart_recovery">மீட்பு (ரெகவரி)</string>
+  <string name="global_action_restart_bootloader">பூட் லோடர்</string>
+  <string name="global_action_restart_ui">சிஸ்டம்Ui</string>
+  <string name="global_action_restart_hot">விரைவு மறுதொடக்கம்</string>
+  <string name="global_action_screenshot">திரைப்பிடிப்பு</string>
 </resources>
