@@ -37,8 +37,6 @@ import com.android.keyguard.KeyguardSecurityModel.SecurityMode;
 
 import java.io.File;
 
-import com.android.internal.util.custom.NavbarUtils;
-
 /**
  * Base class for keyguard view.  {@link #reset} is where you should
  * reset the state of your view.  Use the {@link KeyguardViewCallback} via
@@ -251,12 +249,6 @@ public class KeyguardHostView extends FrameLayout implements SecurityCallback {
         }
     }
 
-    private void restoreNavigationBar(){
-        if (NavbarUtils.shouldShowNavbarInKeyguard(mContext)){
-            NavbarUtils.restoreNavigationBar(mContext, true);
-        }
-    }
-
     @Override
     public void reset() {
         mViewMediatorCallback.resetKeyguard();
@@ -281,7 +273,6 @@ public class KeyguardHostView extends FrameLayout implements SecurityCallback {
     public void onPause() {
         if (DEBUG) Log.d(TAG, String.format("screen off, instance %s at %s",
                 Integer.toHexString(hashCode()), SystemClock.uptimeMillis()));
-        restoreNavigationBar();
         mSecurityContainer.showPrimarySecurityScreen(true);
         mSecurityContainer.onPause();
         clearFocus();
@@ -300,14 +291,10 @@ public class KeyguardHostView extends FrameLayout implements SecurityCallback {
      * Starts the animation when the Keyguard gets shown.
      */
     public void startAppearAnimation() {
-        if (NavbarUtils.shouldShowNavbarInKeyguard(mContext)){
-            NavbarUtils.lockNavigationBar(mContext);
-        }
         mSecurityContainer.startAppearAnimation();
     }
 
     public void startDisappearAnimation(Runnable finishRunnable) {
-        restoreNavigationBar();
         if (!mSecurityContainer.startDisappearAnimation(finishRunnable) && finishRunnable != null) {
             finishRunnable.run();
         }
@@ -318,7 +305,6 @@ public class KeyguardHostView extends FrameLayout implements SecurityCallback {
      */
     public void cleanUp() {
         getSecurityContainer().onPause();
-        restoreNavigationBar();
     }
 
     @Override
