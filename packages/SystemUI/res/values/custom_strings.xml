@@ -78,4 +78,7 @@
     <string name="global_action_restart_hot">Quick reboot</string>
     <string name="global_action_screenshot">Screenshot</string>
 
+    <!-- QS customizer -->
+    <string name="drag_or_tap_to_add_tiles">Drag or tap to add tiles</string>
+
 </resources>
