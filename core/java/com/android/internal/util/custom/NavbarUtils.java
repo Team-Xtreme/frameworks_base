@@ -138,8 +138,4 @@ public class NavbarUtils {
     public static boolean shouldShowNavbarInLockTaskMode(Context context){
         return context.getResources().getBoolean(com.android.internal.R.bool.config_showNavbarInLockTaskMode);
     }
-
-    public static boolean shouldShowNavbarInKeyguard(Context context){
-        return context.getResources().getBoolean(com.android.internal.R.bool.config_showNavbarInKeyguard) && !isNavigationBarEnabled(context);
-    }
 }
