@@ -19,18 +19,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash laddning (<xliff:g id="laddtid_kvar" exempel="4 timmar och 2 minuter">%s</xliff:g> till full)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash laddning</string>
   <!-- PiP Tile -->
+  <string name="quick_settings_pip_label">PiP</string>
+  <string name="quick_settings_pip_tile_app_na">Appen stöder inte PiP</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Koffein</string>
+  <string name="accessibility_quick_settings_caffeine_off">Koffein av</string>
+  <string name="accessibility_quick_settings_caffeine_on">Koffein på</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Ljud</string>
+  <string name="quick_settings_sound_ring">Ring</string>
+  <string name="quick_settings_sound_vibrate">Vibrera</string>
+  <string name="quick_settings_sound_dnd">Stör ej</string>
   <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Heads up</string>
+  <string name="accessibility_quick_settings_heads_up_off">Heads up - av.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Heads up - på.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Heads up avstängd.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Heads up aktiverad.</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Språk</string>
+  <string name="quick_settings_locale_more_locales_toast">Konfigurera flera språk om du vill växla mellan funktioner</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Starta om</string>
+  <string name="quick_settings_reboot_recovery_label">Återställning</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Skärmdump</string>
+  <string name="quick_settings_region_screenshot_label">Partiell skärmdump</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Standard</string>
+  <string name="lockscreen_hidden">Ingen</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Svep från ikonen för att starta</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Skärmdump raderad</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Starta om</string>
+  <string name="global_action_restart_advanced">Avancerad</string>
+  <string name="global_action_restart_recovery">Återställning</string>
+  <string name="global_action_restart_bootloader">Starthanterare</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Snabb omstart</string>
+  <string name="global_action_screenshot">Skärmdump</string>
 </resources>
