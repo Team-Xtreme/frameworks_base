@@ -65,7 +65,7 @@
   <string name="global_action_restart_system">Uruchom ponownie</string>
   <string name="global_action_restart_advanced">Zaawansowane</string>
   <string name="global_action_restart_recovery">Tryb recovery</string>
-  <string name="global_action_restart_bootloader">Uruchom w trybie Bootloader</string>
+  <string name="global_action_restart_bootloader">Tryb Bootloader</string>
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Szybki restart</string>
   <string name="global_action_screenshot">Zrzut ekranu</string>
