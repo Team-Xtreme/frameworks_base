@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Dzwonek</string>
   <string name="quick_settings_sound_vibrate">Wibracje</string>
   <string name="quick_settings_sound_dnd">Nie przeszkadzać</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Powiadomienia wyskakujące</string>
-  <string name="accessibility_quick_settings_heads_up_off">Wyłącz wyskakujące powiadomienia.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Włącz wyskakujące powiadomienia.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Wyskakujące powiadomienia zostały wyłączone.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Wyskakujące powiadomienia zostały włączone.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Język</string>
   <string name="quick_settings_locale_more_locales_toast">Należy skonfigurować wiele języków, aby włączyć funkcję przełączania</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Szybki restart</string>
   <string name="global_action_screenshot">Zrzut ekranu</string>
+  <!-- QS customizer -->
 </resources>

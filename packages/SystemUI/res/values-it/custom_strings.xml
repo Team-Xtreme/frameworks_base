@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Suona</string>
   <string name="quick_settings_sound_vibrate">Vibra</string>
   <string name="quick_settings_sound_dnd">Non disturbare</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Heads up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Notifiche a comparsa non attive.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notifiche a comparsa attive.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Notifiche a comparsa disattivate.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Notifiche a comparsa attivate.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Lingua</string>
   <string name="quick_settings_locale_more_locales_toast">Configura più lingue per abilitare la funzionalità toggle</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Riavvio rapido</string>
   <string name="global_action_screenshot">Screenshot</string>
+  <!-- QS customizer -->
 </resources>

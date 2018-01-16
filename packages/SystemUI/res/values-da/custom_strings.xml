@@ -37,7 +37,6 @@
   <string name="quick_settings_sound_ring">Ring</string>
   <string name="quick_settings_sound_vibrate">Vibrér</string>
   <string name="quick_settings_sound_dnd">Forstyr ikke</string>
-  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Sprog</string>
   <!-- Reboot/Recovery QS Tile -->
@@ -62,4 +61,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Hurtig genstart</string>
   <string name="global_action_screenshot">Skærmbillede</string>
+  <!-- QS customizer -->
 </resources>

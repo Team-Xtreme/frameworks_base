@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Звонок</string>
   <string name="quick_settings_sound_vibrate">Вибрация</string>
   <string name="quick_settings_sound_dnd">Не беспокоить</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
-  <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления выкл.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Всплывающие уведомления вкл.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Язык</string>
   <string name="quick_settings_locale_more_locales_toast">Пожалуйста, настройте несколько языков, чтобы активировать функцию</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Быстрая перезагрузка</string>
   <string name="global_action_screenshot">Скриншот</string>
+  <!-- QS customizer -->
 </resources>

@@ -37,10 +37,6 @@
   <string name="quick_settings_sound_ring">벨소리</string>
   <string name="quick_settings_sound_vibrate">진동</string>
   <string name="quick_settings_sound_dnd">방해 금지</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">헤드 업</string>
-  <string name="accessibility_quick_settings_heads_up_off">헤드 업 꺼짐.</string>
-  <string name="accessibility_quick_settings_heads_up_on">헤드 업 켜짐.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">언어</string>
   <!-- Reboot/Recovery QS Tile -->
@@ -57,4 +53,5 @@
   <string name="global_action_restart_ui">시스템UI</string>
   <string name="global_action_restart_hot">빠른 다시 시작</string>
   <string name="global_action_screenshot">스크린샷</string>
+  <!-- QS customizer -->
 </resources>

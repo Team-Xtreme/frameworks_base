@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">રીંગ</string>
   <string name="quick_settings_sound_vibrate">કંપન</string>
   <string name="quick_settings_sound_dnd">પરેશાન ના કરો</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">હેડ્સ અપ</string>
-  <string name="accessibility_quick_settings_heads_up_off">હેડ્સ અપ બંધ.</string>
-  <string name="accessibility_quick_settings_heads_up_on">હેડ્સ અપ ચાલુ.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">હેડ્સ અપ બંધ થઈ.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">હેડ્સ અપ ચાલુ કરી.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">ભાષા</string>
   <string name="quick_settings_locale_more_locales_toast">ટૉગલ કાર્યક્ષમતાને સક્ષમ કરવા માટે બહુવિધ ભાષાને ગોઠવો</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">સિસ્ટમUI</string>
   <string name="global_action_restart_hot">ઝડપી રીબુટ</string>
   <string name="global_action_screenshot">સ્ક્રીનશોટ</string>
+  <!-- QS customizer -->
 </resources>
