@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Dering</string>
   <string name="quick_settings_sound_vibrate">Getar</string>
   <string name="quick_settings_sound_dnd">Jangan ganggu</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Kepala atas</string>
-  <string name="accessibility_quick_settings_heads_up_off">Heads up mati.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Heads up hidup.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Heads up dimatikan.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Kepala dinyalakan.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Bahasa</string>
   <string name="quick_settings_locale_more_locales_toast">Harap tentukan bahasa yang berbeda untuk menghidupkan fungsionalitas tombol</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Reboot cepat</string>
   <string name="global_action_screenshot">Gambar layar</string>
+  <!-- QS customizer -->
 </resources>

@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">రింగ్</string>
   <string name="quick_settings_sound_vibrate">కదలుట</string>
   <string name="quick_settings_sound_dnd">డిస్టర్బ్ చేయకు</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">హెచ్చరిక</string>
-  <string name="accessibility_quick_settings_heads_up_off">హెచ్చరిక ఆఫ్.</string>
-  <string name="accessibility_quick_settings_heads_up_on">హెచ్చరిక ఆన్.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">హెచ్చరిక ఆపివేయబడింది.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">హెచ్చరిక ఆన్ చేయబడింది.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">భాష</string>
   <string name="quick_settings_locale_more_locales_toast">దయచేసి టోగుల్ కార్యాచరణను ప్రారంభించడానికి బహుళ భాషలను కాన్ఫిగర్ చేయండి</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">శీఘ్ర పునఃప్రారంభమైన</string>
   <string name="global_action_screenshot">స్క్రీన్‌షాట్</string>
+  <!-- QS customizer -->
 </resources>

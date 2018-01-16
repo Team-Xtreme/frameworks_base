@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Zil sesi</string>
   <string name="quick_settings_sound_vibrate">Titreşim</string>
   <string name="quick_settings_sound_dnd">Rahatsız etme</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Bildirim pencereleri</string>
-  <string name="accessibility_quick_settings_heads_up_off">Bildirim pencereleri kapalı.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Bildirim pencereleri açık.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Bildirim pencereleri kapatıldı.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Bildirim pencereleri açıldı.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Dil</string>
   <string name="quick_settings_locale_more_locales_toast">Geçiş işlevselliğini etkinleştirmek için lütfen birden fazla dil yapılandırın</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">Kullanıcı Arayüzü</string>
   <string name="global_action_restart_hot">Hızlı yeniden başlat</string>
   <string name="global_action_screenshot">Ekran görüntüsü</string>
+  <!-- QS customizer -->
 </resources>

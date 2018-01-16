@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Ring</string>
   <string name="quick_settings_sound_vibrate">Vibrera</string>
   <string name="quick_settings_sound_dnd">Stör ej</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Heads up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Heads up - av.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Heads up - på.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Heads up avstängd.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Heads up aktiverad.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Språk</string>
   <string name="quick_settings_locale_more_locales_toast">Konfigurera flera språk om du vill växla mellan funktioner</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Snabb omstart</string>
   <string name="global_action_screenshot">Skärmdump</string>
+  <!-- QS customizer -->
 </resources>

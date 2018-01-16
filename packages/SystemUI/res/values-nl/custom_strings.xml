@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Ringtone</string>
   <string name="quick_settings_sound_vibrate">Vibratie</string>
   <string name="quick_settings_sound_dnd">Niet storen</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Heads up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Heads up uit.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Heads up aan.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Heads up is uitgezet.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Heads up is aangezet.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Taal</string>
   <string name="quick_settings_locale_more_locales_toast">Zet a.u.b. meerdere talen aan om de switch functionaliteit te gebruiken</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SysteemUI</string>
   <string name="global_action_restart_hot">Snelle herstart</string>
   <string name="global_action_screenshot">Schermafdruk</string>
+  <!-- QS customizer -->
 </resources>

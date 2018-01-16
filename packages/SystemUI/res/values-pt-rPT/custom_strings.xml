@@ -37,12 +37,6 @@
   <string name="quick_settings_sound_ring">Toque</string>
   <string name="quick_settings_sound_vibrate">Vibração</string>
   <string name="quick_settings_sound_dnd">Não incomodar</string>
-  <!-- Heads Up QS Tile -->
-  <string name="quick_settings_heads_up_label">Notificações pop-up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Notificações pop-up desativadas.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notificações pop-up ativadas.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">As notificações pop-up foram desativadas.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">As notificações pop-up foram ativadas.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Língua</string>
   <string name="quick_settings_locale_more_locales_toast">Configure vários idiomas para ativar a funcionalidade de troca</string>
@@ -69,4 +63,5 @@
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Reiniciar Rápido</string>
   <string name="global_action_screenshot">Capturar ecrã</string>
+  <!-- QS customizer -->
 </resources>
