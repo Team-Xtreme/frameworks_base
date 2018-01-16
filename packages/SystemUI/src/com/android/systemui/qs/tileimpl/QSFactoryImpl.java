@@ -32,7 +32,6 @@ import com.android.systemui.qs.tiles.ColorInversionTile;
 import com.android.systemui.qs.tiles.DataSaverTile;
 import com.android.systemui.qs.tiles.DndTile;
 import com.android.systemui.qs.tiles.FlashlightTile;
-import com.android.systemui.qs.tiles.HeadsUpTile;
 import com.android.systemui.qs.tiles.HotspotTile;
 import com.android.systemui.qs.tiles.IntentTile;
 import com.android.systemui.qs.tiles.LocaleTile;
@@ -79,7 +78,6 @@ public class QSFactoryImpl implements QSFactory {
         else if (tileSpec.equals("night")) return new NightDisplayTile(mHost);
         else if (tileSpec.equals("nfc")) return new NfcTile(mHost);
         else if (tileSpec.equals("sound")) return new SoundTile(mHost);
-        else if (tileSpec.equals("heads_up")) return new HeadsUpTile(mHost);
         else if (tileSpec.equals("locale")) return new LocaleTile(mHost);
         else if (tileSpec.equals("reboot")) return new RebootTile(mHost);
         else if (tileSpec.equals("screenshot")) return new ScreenshotTile(mHost);
