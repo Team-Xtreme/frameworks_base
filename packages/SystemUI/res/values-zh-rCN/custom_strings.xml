@@ -64,4 +64,5 @@
   <string name="global_action_restart_hot">快速重启</string>
   <string name="global_action_screenshot">屏幕截图</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">拖动或点击以添加快捷设置磁块</string>
 </resources>

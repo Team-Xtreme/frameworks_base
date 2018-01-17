@@ -26,14 +26,14 @@
   <string name="keyguard_indication_dash_charging_time">Wird schnell aufgeladen (voll in <xliff:g id="verbleibende_Aufladezeit" beispiel="4 Stunden und 2 Minuten">%s</xliff:g>)</string>
   <string name="keyguard_plugged_in_dash_charging">Schnelles Aufladen</string>
   <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">Bild in Bild</string>
+  <string name="quick_settings_pip_label">Bild im Bild</string>
   <string name="quick_settings_pip_tile_app_na">Die App unterstützt keine Bild in Bild Darstellung</string>
   <!-- Caffeine QS Tile -->
-  <string name="quick_settings_caffeine_label">Koffein</string>
-  <string name="accessibility_quick_settings_caffeine_off">Koffein aus</string>
-  <string name="accessibility_quick_settings_caffeine_on">Koffein an</string>
+  <string name="quick_settings_caffeine_label">Caffeine</string>
+  <string name="accessibility_quick_settings_caffeine_off">Caffeine aus</string>
+  <string name="accessibility_quick_settings_caffeine_on">Caffeine an</string>
   <!-- Sound QS Tile -->
-  <string name="quick_settings_sound_label">Sound</string>
+  <string name="quick_settings_sound_label">Ton</string>
   <string name="quick_settings_sound_ring">Klingeln</string>
   <string name="quick_settings_sound_vibrate">Vibrieren</string>
   <string name="quick_settings_sound_dnd">Nicht stören</string>
@@ -42,26 +42,27 @@
   <string name="quick_settings_locale_more_locales_toast">Bitte richten Sie mehrere Sprachen ein, um die Umschaltfunktion zu aktivieren</string>
   <!-- Reboot/Recovery QS Tile -->
   <string name="quick_settings_reboot_label">Neustart</string>
-  <string name="quick_settings_reboot_recovery_label">Wiederherstellung</string>
+  <string name="quick_settings_reboot_recovery_label">Recovery</string>
   <!-- Screenshot QS tile -->
   <string name="quick_settings_screenshot_label">Bildschirmfoto</string>
-  <string name="quick_settings_region_screenshot_label">Teilweise Bildschirmaufnahme</string>
+  <string name="quick_settings_region_screenshot_label">Teil-Bildschirmaufnahme</string>
   <!-- VPN icon -->
-  <string name="status_bar_vpn">VPN (Virtuelles privates Netzwerk)</string>
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
-  <string name="lockscreen_default">Standart</string>
+  <string name="lockscreen_default">Standard</string>
   <string name="lockscreen_hidden">Kein</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
-  <string name="custom_hint">Zum Öffnen über das Symbol wischen</string>
+  <string name="custom_hint">Zum Öffnen vom Symbol weg wischen</string>
   <!-- Screenshot Delete Toast -->
   <string name="delete_screenshot_toast">Bildschirmfoto gelöscht</string>
   <!-- Global actions -->
   <string name="global_action_restart_system">Neustart</string>
   <string name="global_action_restart_advanced">Erweitert</string>
-  <string name="global_action_restart_recovery">Wiederherstellung</string>
+  <string name="global_action_restart_recovery">Recovery</string>
   <string name="global_action_restart_bootloader">Bootloader</string>
   <string name="global_action_restart_ui">SystemUI</string>
   <string name="global_action_restart_hot">Schneller Neustart</string>
   <string name="global_action_screenshot">Bildschirmfoto</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Ziehen oder tippen Sie, um Kacheln hinzuzufügen</string>
 </resources>
