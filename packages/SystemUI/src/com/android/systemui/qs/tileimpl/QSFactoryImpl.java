@@ -38,7 +38,6 @@ import com.android.systemui.qs.tiles.LocaleTile;
 import com.android.systemui.qs.tiles.LocationTile;
 import com.android.systemui.qs.tiles.NfcTile;
 import com.android.systemui.qs.tiles.NightDisplayTile;
-import com.android.systemui.qs.tiles.PictureInPictureTile;
 import com.android.systemui.qs.tiles.RebootTile;
 import com.android.systemui.qs.tiles.RotationLockTile;
 import com.android.systemui.qs.tiles.SoundTile;
@@ -66,7 +65,6 @@ public class QSFactoryImpl implements QSFactory {
         else if (tileSpec.equals("inversion")) return new ColorInversionTile(mHost);
         else if (tileSpec.equals("airplane")) return new AirplaneModeTile(mHost);
         else if (tileSpec.equals("work")) return new WorkModeTile(mHost);
-        else if (tileSpec.equals("pip")) return new PictureInPictureTile(mHost);
         else if (tileSpec.equals("rotation")) return new RotationLockTile(mHost);
         else if (tileSpec.equals("flashlight")) return new FlashlightTile(mHost);
         else if (tileSpec.equals("location")) return new LocationTile(mHost);
