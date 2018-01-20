@@ -19,18 +19,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <!-- PiP Tile -->
+  <string name="keyguard_indication_dash_charging_time">Đang sạc nhanh (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> cho đến khi đầy)</string>
+  <string name="keyguard_plugged_in_dash_charging">Sạc nhanh</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Caffeine</string>
+  <string name="accessibility_quick_settings_caffeine_off">Bật Caffeine</string>
+  <string name="accessibility_quick_settings_caffeine_on">Tắt Caffeine</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Âm thanh</string>
+  <string name="quick_settings_sound_ring">Chuông</string>
+  <string name="quick_settings_sound_vibrate">Rung</string>
+  <string name="quick_settings_sound_dnd">Không làm phiền</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Ngôn ngữ</string>
+  <string name="quick_settings_locale_more_locales_toast">Vui lòng thiết lập nhiều ngôn ngữ để kích hoạt chức năng chuyển đổi</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Khởi động lại</string>
+  <string name="quick_settings_reboot_recovery_label">Chế độ Phục hồi</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Chụp ảnh màn hình</string>
+  <string name="quick_settings_region_screenshot_label">Ảnh chụp màn hình một phần</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Mặc định</string>
+  <string name="lockscreen_hidden">Không</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Vuốt từ biểu tượng để mở ứng dụng</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Đã xoá ảnh chụp màn hình</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Khởi động lại</string>
+  <string name="global_action_restart_advanced">Nâng cao</string>
+  <string name="global_action_restart_recovery">Chế độ Phục hồi</string>
+  <string name="global_action_restart_bootloader">Bộ nạp khởi động</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Khởi động lại nhanh</string>
+  <string name="global_action_screenshot">Chụp ảnh màn hình</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Kéo hoặc chạm để thêm ô</string>
 </resources>

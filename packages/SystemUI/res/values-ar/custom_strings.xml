@@ -26,9 +26,6 @@
   <string name="keyguard_indication_dash_charging_time">شحن الداش(
 <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> حتي يكتمل)</string>
   <string name="keyguard_plugged_in_dash_charging">شحن الداش</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">التطبيق لا يدعم PiP</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">وضع الكافيين</string>
   <string name="accessibility_quick_settings_caffeine_off">ايقاف وضع الكافيين</string>

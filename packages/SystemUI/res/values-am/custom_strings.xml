@@ -21,7 +21,6 @@
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- volte icon switch -->
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <!-- PiP Tile -->
   <!-- Caffeine QS Tile -->
   <!-- Sound QS Tile -->
   <!-- Language toggle tile -->

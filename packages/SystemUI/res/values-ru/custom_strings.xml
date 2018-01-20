@@ -25,9 +25,6 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">Быстрая зарядка (<xliff:g id="charging_time_left" example="4 часа и 2 минуты">%s</xliff:g> до полной зарядки)</string>
   <string name="keyguard_plugged_in_dash_charging">Быстрая зарядка</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">Картинка в картинке (PiP)</string>
-  <string name="quick_settings_pip_tile_app_na">Приложение не поддерживает режим \"Картинка в картинке\"</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Запрет сна</string>
   <string name="accessibility_quick_settings_caffeine_off">Запрет сна выкл.</string>

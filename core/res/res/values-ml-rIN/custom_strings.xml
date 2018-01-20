@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
+  <string name="system_error_vendorprint">നിങ്ങളുടെ വെണ്ടർ ഇമേജ് സിസ്റ്റത്തിൽ പൊരുത്തപ്പെടുന്നില്ല.ദയവ് ചെയ്തു നിങ്ങളുടെ ഡിവൈസിനുള്ള <xliff:g id="string">%s</xliff:g> വെണ്ടർ ഇമേജ് ഫ്ലാഷ് ചെയ്യുക</string>
 </resources>

@@ -25,13 +25,10 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">Carga rápida (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hasta completar)</string>
   <string name="keyguard_plugged_in_dash_charging">Carga Rápida</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">La aplicación no soporta PiP</string>
   <!-- Caffeine QS Tile -->
-  <string name="quick_settings_caffeine_label">Cafeína</string>
-  <string name="accessibility_quick_settings_caffeine_off">Cafeína desactivada</string>
-  <string name="accessibility_quick_settings_caffeine_on">Cafeína activada</string>
+  <string name="quick_settings_caffeine_label">Modo Cafeína</string>
+  <string name="accessibility_quick_settings_caffeine_off">Modo Cafeína desactivado</string>
+  <string name="accessibility_quick_settings_caffeine_on">Modo Cafeína activado</string>
   <!-- Sound QS Tile -->
   <string name="quick_settings_sound_label">Sonido</string>
   <string name="quick_settings_sound_ring">Timbre</string>
@@ -49,7 +46,7 @@
   <!-- VPN icon -->
   <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
-  <string name="lockscreen_default">Predeterminado</string>
+  <string name="lockscreen_default">Por defecto</string>
   <string name="lockscreen_hidden">Ninguno</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
   <string name="custom_hint">Desliza desde el icono para abrir</string>
@@ -64,4 +61,5 @@
   <string name="global_action_restart_hot">Reinicio rápido</string>
   <string name="global_action_screenshot">Captura de pantalla</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Arrastre o presione para agregar mosaicos</string>
 </resources>

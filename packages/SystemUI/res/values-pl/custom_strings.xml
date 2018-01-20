@@ -23,11 +23,8 @@
   <!-- volte icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <string name="keyguard_indication_dash_charging_time">Szybkie ładowanie (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> do pełnego naładowania)</string>
+  <string name="keyguard_indication_dash_charging_time">Szybkie ładowanie (<xliff:g id="charging_time_left" example="4 godziny and 2 minuty">%s</xliff:g> do pełnego naładowania)</string>
   <string name="keyguard_plugged_in_dash_charging">Szybkie ładowanie</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">Aplikacja nie obsługuje PiP</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Kofeina</string>
   <string name="accessibility_quick_settings_caffeine_off">Kofeina wyłączona</string>
@@ -64,4 +61,5 @@
   <string name="global_action_restart_hot">Szybki restart</string>
   <string name="global_action_screenshot">Zrzut ekranu</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Przeciągnij, lub dotknij żeby dodać kafelki</string>
 </resources>
