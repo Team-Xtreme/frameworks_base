@@ -25,9 +25,6 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">Carregamento dash (<xliff:g id="charging_time_left">%s</xliff:g> até concluir)</string>
   <string name="keyguard_plugged_in_dash_charging">Carregamento dash</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">O aplicativo não tem suporte ao modo picture-in-picture.</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Modo cafeína</string>
   <string name="accessibility_quick_settings_caffeine_off">Modo cafeína desativado</string>

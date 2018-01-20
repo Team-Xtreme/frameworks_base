@@ -25,9 +25,6 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">Carregamento Dash (<xliff:g id="charging_time_left" example="4 horas e 2 minutos">%s</xliff:g> até terminar)</string>
   <string name="keyguard_plugged_in_dash_charging">Carregamento Dash</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">App não suporta PiP</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Cafffeine</string>
   <string name="accessibility_quick_settings_caffeine_off">Caffeine desligado</string>
@@ -64,4 +61,5 @@
   <string name="global_action_restart_hot">Reiniciar Rápido</string>
   <string name="global_action_screenshot">Capturar ecrã</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Arraste ou toque para adicionar mosaicos</string>
 </resources>

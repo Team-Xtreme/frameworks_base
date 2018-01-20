@@ -25,9 +25,6 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">Dash laddning (<xliff:g id="laddtid_kvar" exempel="4 timmar och 2 minuter">%s</xliff:g> till full)</string>
   <string name="keyguard_plugged_in_dash_charging">Dash laddning</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">Appen stöder inte PiP</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Koffein</string>
   <string name="accessibility_quick_settings_caffeine_off">Koffein av</string>

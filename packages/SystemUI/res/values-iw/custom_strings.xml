@@ -21,16 +21,35 @@
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- volte icon switch -->
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <!-- PiP Tile -->
   <!-- Caffeine QS Tile -->
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">קול</string>
+  <string name="quick_settings_sound_ring">צלצול</string>
+  <string name="quick_settings_sound_vibrate">רטט</string>
+  <string name="quick_settings_sound_dnd">נא לא להפריע</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">שפות</string>
+  <string name="quick_settings_locale_more_locales_toast">ניתן להגדיר מספר שפות כדי לאפשר פונקציונליות של מעבר</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">הפעלה מחדש</string>
+  <string name="quick_settings_reboot_recovery_label">התאוששות</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">צילום מסך</string>
+  <string name="quick_settings_region_screenshot_label">צילום מסך אזורי</string>
   <!-- VPN icon -->
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">ברירת מחדל</string>
+  <string name="lockscreen_hidden">ללא</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">החלק מהסמל כדי להפעיל</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">צילום המסך נמחק</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">הפעלה מחדש</string>
+  <string name="global_action_restart_advanced">מתקדם</string>
+  <string name="global_action_restart_recovery">התאוששות</string>
+  <string name="global_action_restart_hot">אתחול מהיר</string>
+  <string name="global_action_screenshot">צילום מסך</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">גרור כדי להוסיף משבצות</string>
 </resources>

@@ -25,9 +25,6 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">대시 충전 중 (<xliff:g id="charging_time_left" example="4 시간 2 분">%s</xliff:g> 후 충전 완료)</string>
   <string name="keyguard_plugged_in_dash_charging">대시 충전 중</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">PiP</string>
-  <string name="quick_settings_pip_tile_app_na">앱이 PiP를 지원하지 않습니다</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">카페인</string>
   <string name="accessibility_quick_settings_caffeine_off">카페인 꺼짐</string>

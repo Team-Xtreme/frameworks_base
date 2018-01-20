@@ -25,9 +25,6 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">மின்னேற்றப்படுகிறது (நிறைவடைய <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> உள்ளன)</string>
   <string name="keyguard_plugged_in_dash_charging">டாஷ் சார்ஜிங்</string>
-  <!-- PiP Tile -->
-  <string name="quick_settings_pip_label">பிப்</string>
-  <string name="quick_settings_pip_tile_app_na">பயன்பாட்டை PiP க்கு ஆதரிக்கவில்லை</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">காஃபின்</string>
   <string name="accessibility_quick_settings_caffeine_off">காஃபின் ஆஃப்</string>
@@ -41,11 +38,11 @@
   <string name="quick_settings_locale_label">மொழி</string>
   <string name="quick_settings_locale_more_locales_toast">செயல்பாட்டை மாற்றுவதற்கு பல மொழிகளையும் கட்டமைக்கவும்</string>
   <!-- Reboot/Recovery QS Tile -->
-  <string name="quick_settings_reboot_label">மறுதொடக்கம்</string>
+  <string name="quick_settings_reboot_label">மீண்டும் தொடங்கு</string>
   <string name="quick_settings_reboot_recovery_label">மீட்பு (ரெகவரி)</string>
   <!-- Screenshot QS tile -->
   <string name="quick_settings_screenshot_label">திரைப்பிடிப்பு</string>
-  <string name="quick_settings_region_screenshot_label">பகுதி திரைப்பிடிப்பு</string>
+  <string name="quick_settings_region_screenshot_label">பகுதி ஸ்கிரீன்ஷாட்</string>
   <!-- VPN icon -->
   <string name="status_bar_vpn">விபிஎன்</string>
   <!-- Lockscreen tuner -->
@@ -56,12 +53,13 @@
   <!-- Screenshot Delete Toast -->
   <string name="delete_screenshot_toast">ஸ்கிரீன்ஷாட் நீக்கப்பட்டது</string>
   <!-- Global actions -->
-  <string name="global_action_restart_system">மறுதொடக்கம்</string>
+  <string name="global_action_restart_system">மீண்டும் தொடங்கு</string>
   <string name="global_action_restart_advanced">மேம்பட்ட</string>
   <string name="global_action_restart_recovery">மீட்பு (ரெகவரி)</string>
   <string name="global_action_restart_bootloader">பூட் லோடர்</string>
   <string name="global_action_restart_ui">சிஸ்டம்Ui</string>
   <string name="global_action_restart_hot">விரைவு மறுதொடக்கம்</string>
-  <string name="global_action_screenshot">திரைப்பிடிப்பு</string>
+  <string name="global_action_screenshot">ஸ்கிரீன்ஷாட்</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">ஓடுகளை சேர்க்க தட்டவும் அல்லது தொட்டு இழுக்கவும்</string>
 </resources>

@@ -17,5 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
-  <string name="system_error_vendorprint">தமிழ்</string>
+  <string name="system_error_vendorprint">விற்பனையாளர் படத்தை முறை பொருந்தவில்லை. உங்கள் சாதனத்தில் <xliff:g id="string">%s </xliff:g> விற்பனையாளர் படத்தை ஃப்ளாஷ்</string>
 </resources>
