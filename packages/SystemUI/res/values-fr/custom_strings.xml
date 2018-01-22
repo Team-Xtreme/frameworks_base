@@ -61,4 +61,5 @@
   <string name="global_action_restart_hot">Redémarrage rapide</string>
   <string name="global_action_screenshot">Capture d\'écran</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Faites glisser ou appuyez pour ajouter des tuiles</string>
 </resources>

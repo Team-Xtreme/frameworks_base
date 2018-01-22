@@ -57,7 +57,7 @@
   <string name="global_action_restart_advanced">Gelişmiş</string>
   <string name="global_action_restart_recovery">Kurtarma modu</string>
   <string name="global_action_restart_bootloader">Önyükleyici</string>
-  <string name="global_action_restart_ui">Kullanıcı Arayüzü</string>
+  <string name="global_action_restart_ui">Kullanıcı arayüzü</string>
   <string name="global_action_restart_hot">Hızlı yeniden başlat</string>
   <string name="global_action_screenshot">Ekran görüntüsü</string>
   <!-- QS customizer -->

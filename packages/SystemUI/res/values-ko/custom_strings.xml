@@ -36,12 +36,22 @@
   <string name="quick_settings_sound_dnd">방해 금지</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">언어</string>
+  <string name="quick_settings_locale_more_locales_toast">토글 기능을 활성화 하려면 다중 언어를 설정하시기 바랍니다</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">다시 시작</string>
+  <string name="quick_settings_reboot_recovery_label">복구 모드</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">스크린샷</string>
+  <string name="quick_settings_region_screenshot_label">부분 스크린샷</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">기본</string>
+  <string name="lockscreen_hidden">사용 안 함</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">실행하려면 아이콘에서 스와이프하세요.</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">스크린샷이 삭제됨</string>
   <!-- Global actions -->
   <string name="global_action_restart_system">다시 시작</string>
   <string name="global_action_restart_advanced">고급</string>
@@ -51,4 +61,5 @@
   <string name="global_action_restart_hot">빠른 다시 시작</string>
   <string name="global_action_screenshot">스크린샷</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">드래그 또는 탭하여 타일 추가</string>
 </resources>

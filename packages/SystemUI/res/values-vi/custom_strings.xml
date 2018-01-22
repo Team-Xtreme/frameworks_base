@@ -23,7 +23,7 @@
   <!-- volte icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <string name="keyguard_indication_dash_charging_time">Đang sạc nhanh (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> cho đến khi đầy)</string>
+  <string name="keyguard_indication_dash_charging_time">Đang sạc nhanh (<xliff:g id="charging_time_left" example="4 giờ : 2 phút">%s</xliff:g>nữa sẽ đầy!)</string>
   <string name="keyguard_plugged_in_dash_charging">Sạc nhanh</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Caffeine</string>
@@ -39,7 +39,7 @@
   <string name="quick_settings_locale_more_locales_toast">Vui lòng thiết lập nhiều ngôn ngữ để kích hoạt chức năng chuyển đổi</string>
   <!-- Reboot/Recovery QS Tile -->
   <string name="quick_settings_reboot_label">Khởi động lại</string>
-  <string name="quick_settings_reboot_recovery_label">Chế độ Phục hồi</string>
+  <string name="quick_settings_reboot_recovery_label">Chế độ TWRP</string>
   <!-- Screenshot QS tile -->
   <string name="quick_settings_screenshot_label">Chụp ảnh màn hình</string>
   <string name="quick_settings_region_screenshot_label">Ảnh chụp màn hình một phần</string>
@@ -55,9 +55,9 @@
   <!-- Global actions -->
   <string name="global_action_restart_system">Khởi động lại</string>
   <string name="global_action_restart_advanced">Nâng cao</string>
-  <string name="global_action_restart_recovery">Chế độ Phục hồi</string>
-  <string name="global_action_restart_bootloader">Bộ nạp khởi động</string>
-  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_recovery">Chế độ TWRP</string>
+  <string name="global_action_restart_bootloader">Khởi động bootloader</string>
+  <string name="global_action_restart_ui">Khởi động nhanh</string>
   <string name="global_action_restart_hot">Khởi động lại nhanh</string>
   <string name="global_action_screenshot">Chụp ảnh màn hình</string>
   <!-- QS customizer -->

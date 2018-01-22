@@ -20,16 +20,39 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- volte icon switch -->
+  <string name="status_bar_volte">4G</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_plugged_in_dash_charging">ಡ್ಯಾಶ್ ಚಾರ್ಜಿಂಗ್</string>
   <!-- Caffeine QS Tile -->
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">ಶಬ್ಧ</string>
+  <string name="quick_settings_sound_ring">ರಿಂಗ್</string>
+  <string name="quick_settings_sound_dnd">ಡು ನಾಟ್ ಡಿಶ್ಟರ್ಬ್</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">ಭಾಷೆಗಳು</string>
+  <string name="quick_settings_locale_more_locales_toast">ಟಾಗಲ್ ಕಾರ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಬಹು ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">ರಿಬೂಟ್</string>
+  <string name="quick_settings_reboot_recovery_label">ರಿಕವರಿ</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">ಸ್ಕ್ರೀನ್‍ಶಾಟ್</string>
+  <string name="quick_settings_region_screenshot_label">ಭಾಗಶಃ/ಬೇಕಾಗಿರುವಸ್ಟು ಮಾತ್ರ ಸ್ಕ್ರೀನ್ಶಾಟ್</string>
   <!-- VPN icon -->
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">ಪೂರ್ವಸ್ಥಿತಿ</string>
+  <string name="lockscreen_hidden">ಏನೂ ಇಲ್ಲ</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">ಪ್ರಾರಂಭಿಸಲು ಐಕಾನ್ಯಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">ಸ್ಕ್ರೀನ್ಶಾಟ್ ಅಳಿಸಲಾಗಿದೆ</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">ರಿಬೂಟ್</string>
+  <string name="global_action_restart_advanced">ಮುಂದುವರಿದ</string>
+  <string name="global_action_restart_recovery">ರಿಕವರಿ</string>
+  <string name="global_action_restart_bootloader">ಬೂಟ ಲೋಡರ್</string>
+  <string name="global_action_restart_ui">ಸಿಸ್ಟಮ್ UI</string>
+  <string name="global_action_restart_hot">ತ್ವರಿತವಾದ ರೀಬೂಟ್</string>
+  <string name="global_action_screenshot">ಸ್ಕ್ರೀನ್‍ಶಾಟ್</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">ನೀವು ಬಯಸುವ ಆಯ್ಕೆ/ಅಂಚುಗಳನ್ನು ಆರಿಸಿ ಎಳೆಯಿರಿ ಅಥವಾ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
 </resources>
