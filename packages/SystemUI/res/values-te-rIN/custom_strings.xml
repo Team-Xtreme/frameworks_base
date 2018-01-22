@@ -61,4 +61,5 @@
   <string name="global_action_restart_hot">శీఘ్ర పునఃప్రారంభమైన</string>
   <string name="global_action_screenshot">స్క్రీన్‌షాట్</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">పలకలను జోడించడానికి లాగండి లేదా నొక్కండి</string>
 </resources>

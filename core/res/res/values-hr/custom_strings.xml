@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
+  <string name="system_error_vendorprint">Vaša slika proizvođača ne odgovara slici sustava. Molimo vas da instalirate sliku proizvođača <xliff:g id="string">%s</xliff:g> za vaš uređaj</string>
 </resources>

@@ -19,17 +19,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA +</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Megecas dengan Dash (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hingga penuh)</string>
+  <string name="keyguard_plugged_in_dash_charging">Mengecas dengan Dash</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Kafein</string>
+  <string name="accessibility_quick_settings_caffeine_off">Kafein Ditutup</string>
+  <string name="accessibility_quick_settings_caffeine_on">Kafein Dibuka</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Bunyi</string>
+  <string name="quick_settings_sound_ring">Dering</string>
+  <string name="quick_settings_sound_vibrate">Getar</string>
+  <string name="quick_settings_sound_dnd">Jangan ganggu</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Bahasa</string>
+  <string name="quick_settings_locale_more_locales_toast">Sila pilih pelbagai bahasa untuk membernarkan fungsi togel</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Boot semula</string>
+  <string name="quick_settings_reboot_recovery_label">Mod Pemulihan</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Tangkapan skrin</string>
+  <string name="quick_settings_region_screenshot_label">Screenshot separa</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Lalai</string>
+  <string name="lockscreen_hidden">Tiada</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Luncur dari ikon untuk melancarkan</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Tangkapan skrin dipadam</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Boot semula</string>
+  <string name="global_action_restart_advanced">Selanjutnya</string>
+  <string name="global_action_restart_recovery">Mod Pemulihan</string>
+  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Boot semula pantas</string>
+  <string name="global_action_screenshot">Tangkapan skrin</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Seret atau tekan untuk menambah tiles</string>
 </resources>

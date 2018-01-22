@@ -19,17 +19,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash Punjenje (još <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g>)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash Punjenje</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Kofein</string>
+  <string name="accessibility_quick_settings_caffeine_off">Kofein isključen</string>
+  <string name="accessibility_quick_settings_caffeine_on">Kofein uključen</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Zvuk</string>
+  <string name="quick_settings_sound_ring">Zvono</string>
+  <string name="quick_settings_sound_vibrate">Vibracija</string>
+  <string name="quick_settings_sound_dnd">Ne ometaj</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Jezik</string>
+  <string name="quick_settings_locale_more_locales_toast">Podesite više jezika da biste omogućili uključivanje/isključivanje funkcije</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Ponovno pokreni</string>
+  <string name="quick_settings_reboot_recovery_label">Oporavak</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Snimka zaslona</string>
+  <string name="quick_settings_region_screenshot_label">Djelomična snimka zaslona</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Zadano</string>
+  <string name="lockscreen_hidden">Ništa</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Prijeđite prstom preko ikone za pokretanje</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Snimka zaslona je obrisana</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Ponovno pokreni</string>
+  <string name="global_action_restart_advanced">Napredno</string>
+  <string name="global_action_restart_recovery">Oporavak</string>
+  <string name="global_action_restart_bootloader">Bootloader</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Brzo ponovno pokretanje</string>
+  <string name="global_action_screenshot">Snimka zaslona</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Povucite ili dodirnite za dodavanje pločica</string>
 </resources>

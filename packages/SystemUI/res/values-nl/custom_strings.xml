@@ -61,4 +61,5 @@
   <string name="global_action_restart_hot">Snelle herstart</string>
   <string name="global_action_screenshot">Schermafdruk</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Sleep of tik om tegels toe te voegen</string>
 </resources>

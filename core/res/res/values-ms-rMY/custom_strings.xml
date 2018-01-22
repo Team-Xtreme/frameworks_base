@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
+  <string name="system_error_vendorprint">Imej penjual anda tidak sesuai dengan sistem. Sila flash imej penjual <xliff:g id="string">%s</xliff:g> untuk peranti anda</string>
 </resources>

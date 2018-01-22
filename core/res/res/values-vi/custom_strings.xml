@@ -17,5 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
-  <string name="system_error_vendorprint">Vendor image không phù hợp với phiên bản hệ thống. Xin vui lòng flash <xliff:g id="string">%s</xliff:g> vendor image phù hợp</string>
+  <string name="system_error_vendorprint">Hình ảnh nhà cung cấp của bạn không phù hợp với hệ thống. Xin vui lòng flash hình ảnh nhà cung cấp <xliff:g id="string">%s </xliff:g> cho thiết bị</string>
 </resources>
