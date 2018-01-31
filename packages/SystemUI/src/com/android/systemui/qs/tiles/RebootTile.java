@@ -20,25 +20,36 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.PowerManager;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+
+import com.android.systemui.Dependency;
 import com.android.systemui.R;
+import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.plugins.qs.QSTile.BooleanState;
 import com.android.systemui.qs.QSHost;
 import com.android.systemui.qs.tileimpl.QSTileImpl;
-import com.android.systemui.Dependency;
-import com.android.systemui.plugins.ActivityStarter;
+import com.android.internal.statusbar.IStatusBarService;
 import com.android.systemui.statusbar.policy.KeyguardMonitor;
 
 public class RebootTile extends QSTileImpl<BooleanState> {
 
     private boolean mRebootToRecovery = false;
-    private final KeyguardMonitor mKeyguard;
+    private IStatusBarService mBarService;
+
+    private final ActivityStarter mActivityStarter;
+    private final KeyguardMonitor mKeyguardMonitor;
+    private final Callback mCallback = new Callback();
+
+    private boolean mListening;
 
     public RebootTile(QSHost host) {
         super(host);
-        mKeyguard = Dependency.get(KeyguardMonitor.class);
+        mActivityStarter = Dependency.get(ActivityStarter.class);
+        mKeyguardMonitor = Dependency.get(KeyguardMonitor.class);
     }
 
     @Override
@@ -54,27 +65,25 @@ public class RebootTile extends QSTileImpl<BooleanState> {
 
     @Override
     protected void handleLongClick() {
-        if (mRebootToRecovery && mKeyguard.isSecure() && mKeyguard.isShowing()) {
-            Dependency.get(ActivityStarter.class).postQSRunnableDismissingKeyguard(() -> {
-                onLongClick(true);
-            });
-            return;
-        }
-        onLongClick(mKeyguard.isShowing());
-    }
-
-    private void onLongClick(boolean forceCollapse){
-        if (forceCollapse){
-            mHost.forceCollapsePanels();
-        }else{
-            mHost.collapsePanels();
-        }
+        mHost.collapsePanels();
+        mBarService = IStatusBarService.Stub.asInterface(
+                ServiceManager.getService(Context.STATUS_BAR_SERVICE));
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
-                PowerManager pm =
-                    (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
-                pm.reboot(mRebootToRecovery ? "recovery" : "");
+                if (mKeyguardMonitor.isSecure() && !mKeyguardMonitor.canSkipBouncer()) {
+                    mActivityStarter.postQSRunnableDismissingKeyguard(() -> {
+                        MetricsLogger.action(mContext, getMetricsCategory(), !mState.value);
+                        try {
+                            if (mRebootToRecovery)
+                                mBarService.advancedReboot(PowerManager.REBOOT_RECOVERY);
+                            else
+                                mBarService.reboot(false);
+                        } catch (RemoteException e) {
+                        }
+                    });
+                    return;
+                }
             }
         }, 500);
     }
@@ -96,7 +105,7 @@ public class RebootTile extends QSTileImpl<BooleanState> {
 
     @Override
     protected void handleUpdateState(BooleanState state, Object arg) {
-        if (mRebootToRecovery) {
+       if (mRebootToRecovery) {
             state.label = mContext.getString(R.string.quick_settings_reboot_recovery_label);
             state.icon = ResourceIcon.get(R.drawable.ic_qs_reboot_recovery);
         } else {
@@ -105,7 +114,21 @@ public class RebootTile extends QSTileImpl<BooleanState> {
         }
     }
 
-    @Override
     public void handleSetListening(boolean listening) {
+        if (mListening == listening) return;
+        mListening = listening;
+        if (listening) {
+            mKeyguardMonitor.addCallback(mCallback);
+        } else {
+            mKeyguardMonitor.removeCallback(mCallback);
+        }
     }
+
+    private final class Callback implements KeyguardMonitor.Callback {
+        @Override
+        public void onKeyguardShowingChanged() {
+            refreshState();
+        }
+    };
 }
+
