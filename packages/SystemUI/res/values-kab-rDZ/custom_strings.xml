@@ -19,17 +19,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Azdam arurad (Ummid deg <xliff:g id="charging_time_left" example="4 Asrag d 2 tisdatin">%s</xliff:g>)</string>
+  <string name="keyguard_plugged_in_dash_charging">Azdam arurad</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Kafiyin</string>
+  <string name="accessibility_quick_settings_caffeine_off">Kafiyin insa</string>
+  <string name="accessibility_quick_settings_caffeine_on">Kafiyin irmed</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">Imesli</string>
+  <string name="quick_settings_sound_ring">Aṭenṭen</string>
+  <string name="quick_settings_sound_vibrate">Ngugu</string>
+  <string name="quick_settings_sound_dnd">ur smermed ara</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">Tutlayt</string>
+  <string name="quick_settings_locale_more_locales_toast">Sbadu ddeqs n tutlayin akken ad tesqedceḍ tamahilt-agi</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">Ales asenker</string>
+  <string name="quick_settings_reboot_recovery_label">Tiririt</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">Tuṭṭfa n ugdil</string>
+  <string name="quick_settings_region_screenshot_label">Tuṭfa abruyan n wagdil </string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">Amezwer</string>
+  <string name="lockscreen_hidden">Ula yiwen</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">Ḥnucceḍ tignit iw sekker n wasnas</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">Tuṭṭfa n ugdil tettwakkes</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">Ales asenker</string>
+  <string name="global_action_restart_advanced">Talqayt</string>
+  <string name="global_action_restart_recovery">Tiririt</string>
+  <string name="global_action_restart_bootloader">Afecku useqdec n unagraw</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">Tulsa n useker arurad</string>
+  <string name="global_action_screenshot">Tuṭṭfa n ugdil</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Zuɣeṛ neɣ senned i tmerniwt n tiḥjuṛin</string>
 </resources>

@@ -61,4 +61,5 @@
   <string name="global_action_restart_hot">Snabb omstart</string>
   <string name="global_action_screenshot">Skärmdump</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">Dra eller tryck för att lägga till brickor</string>
 </resources>

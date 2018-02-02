@@ -23,12 +23,12 @@
   <!-- volte icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <string name="keyguard_indication_dash_charging_time">Đang sạc nhanh (<xliff:g id="charging_time_left" example="4 giờ : 2 phút">%s</xliff:g>nữa sẽ đầy!)</string>
+  <string name="keyguard_indication_dash_charging_time">Đang sạc nhanh (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> cho đến khi đầy)</string>
   <string name="keyguard_plugged_in_dash_charging">Sạc nhanh</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Caffeine</string>
-  <string name="accessibility_quick_settings_caffeine_off">Bật Caffeine</string>
-  <string name="accessibility_quick_settings_caffeine_on">Tắt Caffeine</string>
+  <string name="accessibility_quick_settings_caffeine_off">Tắt Caffeine</string>
+  <string name="accessibility_quick_settings_caffeine_on">Bật Caffeine</string>
   <!-- Sound QS Tile -->
   <string name="quick_settings_sound_label">Âm thanh</string>
   <string name="quick_settings_sound_ring">Chuông</string>

@@ -61,4 +61,5 @@
   <string name="global_action_restart_hot">त्वरित रिबूट</string>
   <string name="global_action_screenshot">स्क्रीनशॉट</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles"> टाइल जोड़ने के लिए दबाएँ या दबा कर खींचें</string>
 </resources>
