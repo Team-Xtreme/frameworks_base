@@ -2976,9 +2976,6 @@ public class Camera {
              * that key to be ordered the latest in the map.
              */
             mMap.remove(key);
-            if ((key == KEY_VIDEO_STABILIZATION || key == KEY_VIDEO_STABILIZATION_SUPPORTED) && SystemProperties.getInt("camera.force_disable_video_stabilization", 0) == 1){
-                value = FALSE;
-            }
             mMap.put(key, value);
         }
 
@@ -3014,9 +3011,6 @@ public class Camera {
          * @return the String value of the parameter
          */
         public String get(String key) {
-            if ((key == KEY_VIDEO_STABILIZATION || key == KEY_VIDEO_STABILIZATION_SUPPORTED) && SystemProperties.getInt("camera.force_disable_video_stabilization", 0) == 1){
-                return FALSE;
-            }
             return mMap.get(key);
         }
 
@@ -3027,9 +3021,6 @@ public class Camera {
          * @return the int value of the parameter
          */
         public int getInt(String key) {
-            if ((key == KEY_VIDEO_STABILIZATION || key == KEY_VIDEO_STABILIZATION_SUPPORTED) && SystemProperties.getInt("camera.force_disable_video_stabilization", 0) == 1){
-                return 0;
-            }
             return Integer.parseInt(mMap.get(key));
         }
 
