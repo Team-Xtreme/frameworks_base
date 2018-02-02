@@ -23,7 +23,7 @@
   <!-- volte icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <string name="keyguard_indication_dash_charging_time">대시 충전 중 (<xliff:g id="charging_time_left" example="4 시간 2 분">%s</xliff:g> 후 충전 완료)</string>
+  <string name="keyguard_indication_dash_charging_time">대시 충전 중 (<xliff:g id="charging_time_left" example="4시간 2분">%s</xliff:g> 후 충전 완료)</string>
   <string name="keyguard_plugged_in_dash_charging">대시 충전 중</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">카페인</string>
@@ -36,7 +36,7 @@
   <string name="quick_settings_sound_dnd">방해 금지</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">언어</string>
-  <string name="quick_settings_locale_more_locales_toast">토글 기능을 활성화 하려면 다중 언어를 설정하시기 바랍니다</string>
+  <string name="quick_settings_locale_more_locales_toast">토글 기능을 활성화하려면 다중 언어를 설정하시기 바랍니다</string>
   <!-- Reboot/Recovery QS Tile -->
   <string name="quick_settings_reboot_label">다시 시작</string>
   <string name="quick_settings_reboot_recovery_label">복구 모드</string>

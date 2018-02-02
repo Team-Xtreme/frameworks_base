@@ -25,11 +25,11 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">شحن الداش(
 <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> حتي يكتمل)</string>
-  <string name="keyguard_plugged_in_dash_charging">شحن الداش</string>
+  <string name="keyguard_plugged_in_dash_charging">قاعدة الشحن</string>
   <!-- Caffeine QS Tile -->
-  <string name="quick_settings_caffeine_label">وضع الكافيين</string>
-  <string name="accessibility_quick_settings_caffeine_off">ايقاف وضع الكافيين</string>
-  <string name="accessibility_quick_settings_caffeine_on">تشغيل وضع الكافيين</string>
+  <string name="quick_settings_caffeine_label">الإستراحة</string>
+  <string name="accessibility_quick_settings_caffeine_off">ايقاف وضع الإستراحة</string>
+  <string name="accessibility_quick_settings_caffeine_on">تشغيل وضع الإستراحة</string>
   <!-- Sound QS Tile -->
   <string name="quick_settings_sound_label">الصوت</string>
   <string name="quick_settings_sound_ring">رنين</string>
@@ -39,27 +39,28 @@
   <string name="quick_settings_locale_label">اللغة</string>
   <string name="quick_settings_locale_more_locales_toast">الرجاء القيام بتهيئة لغات متعددة لتمكين وظيفة التبديل</string>
   <!-- Reboot/Recovery QS Tile -->
-  <string name="quick_settings_reboot_label">آعد التشغيل</string>
-  <string name="quick_settings_reboot_recovery_label">إسترجع</string>
+  <string name="quick_settings_reboot_label">إعادة التشغيل</string>
+  <string name="quick_settings_reboot_recovery_label">قائمة الاسترداد</string>
   <!-- Screenshot QS tile -->
   <string name="quick_settings_screenshot_label">لقطة الشاشة</string>
   <string name="quick_settings_region_screenshot_label">صورة لقطة شاشة جزئية</string>
   <!-- VPN icon -->
-  <string name="status_bar_vpn">VPN</string>
+  <string name="status_bar_vpn">شبكة خاصة محمية</string>
   <!-- Lockscreen tuner -->
   <string name="lockscreen_default">إفتراضي</string>
-  <string name="lockscreen_hidden">بدون</string>
+  <string name="lockscreen_hidden">بلا</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
   <string name="custom_hint">حرك الأيقونة لتشغيل التطبيق</string>
   <!-- Screenshot Delete Toast -->
   <string name="delete_screenshot_toast">تم حذف لقطة الشاشة</string>
   <!-- Global actions -->
-  <string name="global_action_restart_system">آعد التشغيل</string>
+  <string name="global_action_restart_system">اعادة التشغيل</string>
   <string name="global_action_restart_advanced">إعدادات متقدمة</string>
-  <string name="global_action_restart_recovery">إسترجع</string>
+  <string name="global_action_restart_recovery">قائمة الاسترداد</string>
   <string name="global_action_restart_bootloader">أداة تشغيل النظام</string>
-  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_ui">تصميم النظام</string>
   <string name="global_action_restart_hot">إعادة تشغيل سريع</string>
-  <string name="global_action_screenshot">لقط الشاشة</string>
+  <string name="global_action_screenshot">لقطة الشاشة</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">اسحب أو انقر لإضافة مربعات</string>
 </resources>

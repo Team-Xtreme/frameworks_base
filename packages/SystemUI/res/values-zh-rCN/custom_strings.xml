@@ -23,7 +23,7 @@
   <!-- volte icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
-  <string name="keyguard_indication_dash_charging_time">Dash 闪充 (还需<xliff:g id="charging_time_left" example="4小时2分钟">%s</xliff:g> 充满)</string>
+  <string name="keyguard_indication_dash_charging_time">Dash 闪充 (还需 <xliff:g id="charging_time_left" example="4小时2分钟">%s</xliff:g> 充满)</string>
   <string name="keyguard_plugged_in_dash_charging">Dash 闪充</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">保持亮屏</string>

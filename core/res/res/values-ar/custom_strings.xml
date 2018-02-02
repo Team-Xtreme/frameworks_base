@@ -19,4 +19,6 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">صورة المورد الخاص بك لا تتطابق مع هذا النظام. الرجاء عمل فلاش للصورة 
 <xliff:g id="string">%s</xliff:g>من جهازك</string>
+  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 </resources>

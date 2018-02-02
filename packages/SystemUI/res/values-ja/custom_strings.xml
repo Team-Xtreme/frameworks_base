@@ -21,6 +21,8 @@
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- volte icon switch -->
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">ダッシュ充電（充電完了まで<xliff:g id="charging_time_left" 例="４時間２分かかります">%s</xliff:g>）</string>
+  <string name="keyguard_plugged_in_dash_charging">ダッシュ充電</string>
   <!-- Caffeine QS Tile -->
   <!-- Sound QS Tile -->
   <!-- Language toggle tile -->
