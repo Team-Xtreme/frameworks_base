@@ -276,6 +276,8 @@ import java.util.Stack;
 import com.android.internal.util.custom.NavbarUtils;
 import android.app.ActivityManagerNative;
 
+import com.android.systemui.custom.Themes;
+
 public class StatusBar extends SystemUI implements DemoMode,
         DragDownHelper.DragDownCallback, ActivityStarter, OnUnlockMethodChangedListener,
         OnHeadsUpChangedListener, VisualStabilityManager.Callback, CommandQueue.Callbacks,
@@ -4845,32 +4847,10 @@ public class StatusBar extends SystemUI implements DemoMode,
             useBlackTheme = userThemeSetting == 3;
         }
         if (isUsingDarkTheme() != useDarkTheme) {
-            try {
-                mOverlayManager.setEnabled("com.android.system.theme.dark",
-                        useDarkTheme, mCurrentUserId);
-                mOverlayManager.setEnabled("com.android.settings.theme.dark",
-                        useDarkTheme, mCurrentUserId);
-                mOverlayManager.setEnabled("com.android.dui.theme.dark",
-                        useDarkTheme, mCurrentUserId);
-                mOverlayManager.setEnabled("com.android.gboard.theme.dark",
-                        useDarkTheme, mCurrentUserId);
-            } catch (RemoteException e) {
-                Log.w(TAG, "Can't change theme", e);
-            }
+            Themes.updateDarkOverlays(mOverlayManager, useDarkTheme, mCurrentUserId);
         }
         if (isUsingBlackTheme() != useBlackTheme) {
-            try {
-                mOverlayManager.setEnabled("com.android.system.theme.black",
-                        useBlackTheme, mCurrentUserId);
-                mOverlayManager.setEnabled("com.android.settings.theme.black",
-                        useBlackTheme, mCurrentUserId);
-                mOverlayManager.setEnabled("com.android.dui.theme.black",
-                        useBlackTheme, mCurrentUserId);
-                mOverlayManager.setEnabled("com.android.gboard.theme.black",
-                        useBlackTheme, mCurrentUserId);
-            } catch (RemoteException e) {
-                Log.w(TAG, "Can't change theme", e);
-            }
+            Themes.updateBlackOverlays(mOverlayManager, useBlackTheme, mCurrentUserId);
         }
 
         // Lock wallpaper defines the color of the majority of the views, hence we'll use it
