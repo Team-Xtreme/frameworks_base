@@ -19,5 +19,7 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">ベンダーイメージがシステムと一致しません。お使いの端末に <xliff:g id="string">%s</xliff:g> ベンダーイメージを導入してください。</string>
   <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_preventpower">電源ボタンの置き換え</string>
   <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_preventpower">アプリが電源ボタンを置き換えることを許可します</string>
 </resources>
