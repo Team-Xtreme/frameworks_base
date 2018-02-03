@@ -19,5 +19,7 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Gambar vendor Anda tidak sesuai dengan sistem. Silahkan flash gambar vendor <xliff:g id="string">%s</xliff:g> untuk perangkat Anda</string>
   <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_preventpower">mengubah tombol daya</string>
   <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_preventpower">Mengizinkan aplikasi untuk mengubah tombol daya.</string>
 </resources>

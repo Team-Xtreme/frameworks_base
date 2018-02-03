@@ -19,5 +19,7 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Das Firmware-Image ist nicht passend für dieses System. Bitte installieren Sie das Hersteller-Image <xliff:g id="string">%s</xliff:g> für ihr Gerät</string>
   <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_preventpower">Ein/Aus Taste ändern</string>
   <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_preventpower">Ermöglicht einer App, der Ein/Aus-Taste eine andere Funktion zuzuweisen.</string>
 </resources>

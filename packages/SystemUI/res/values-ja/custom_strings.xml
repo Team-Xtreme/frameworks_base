@@ -19,19 +19,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_data_connection_hspap">HSPA+</string>
   <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <string name="keyguard_indication_dash_charging_time">ダッシュ充電（充電完了まで<xliff:g id="charging_time_left" 例="４時間２分かかります">%s</xliff:g>）</string>
   <string name="keyguard_plugged_in_dash_charging">ダッシュ充電</string>
   <!-- Caffeine QS Tile -->
+  <string name="quick_settings_caffeine_label">Caffeine</string>
+  <string name="accessibility_quick_settings_caffeine_off">Caffeineを無効</string>
+  <string name="accessibility_quick_settings_caffeine_on">Caffeineを有効</string>
   <!-- Sound QS Tile -->
+  <string name="quick_settings_sound_label">サウンド</string>
+  <string name="quick_settings_sound_ring">着信音</string>
+  <string name="quick_settings_sound_vibrate">バイブレーション</string>
+  <string name="quick_settings_sound_dnd">おやすみモード</string>
   <!-- Language toggle tile -->
+  <string name="quick_settings_locale_label">言語</string>
+  <string name="quick_settings_locale_more_locales_toast">言語の切り替えを有効にするために複数の言語を設定してください</string>
   <!-- Reboot/Recovery QS Tile -->
+  <string name="quick_settings_reboot_label">再起動</string>
+  <string name="quick_settings_reboot_recovery_label">リカバリーモード</string>
   <!-- Screenshot QS tile -->
+  <string name="quick_settings_screenshot_label">スクリーンショット</string>
+  <string name="quick_settings_region_screenshot_label">範囲を選択してスクリーンショット</string>
   <!-- VPN icon -->
+  <string name="status_bar_vpn">VPN</string>
   <!-- Lockscreen tuner -->
+  <string name="lockscreen_default">デフォルト</string>
+  <string name="lockscreen_hidden">無効</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+  <string name="custom_hint">アイコンをスワイプして起動します</string>
   <!-- Screenshot Delete Toast -->
+  <string name="delete_screenshot_toast">スクリーンショットを削除しました</string>
   <!-- Global actions -->
+  <string name="global_action_restart_system">再起動</string>
+  <string name="global_action_restart_advanced">詳細設定</string>
+  <string name="global_action_restart_recovery">リカバリーモード</string>
+  <string name="global_action_restart_bootloader">ブートローダー</string>
+  <string name="global_action_restart_ui">SystemUI</string>
+  <string name="global_action_restart_hot">クイックリブート</string>
+  <string name="global_action_screenshot">スクリーンショット</string>
   <!-- QS customizer -->
+  <string name="drag_or_tap_to_add_tiles">タイルを追加するにはドラックかタップしてください</string>
 </resources>
