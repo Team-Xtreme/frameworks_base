@@ -79,9 +79,6 @@
   <!-- Global actions -->
   <java-symbol type="array" name="config_custom_globalActionsList" />
 
-  <!-- Whether to show navbar when fingerprint sensor is busy -->
-  <java-symbol type="bool" name="config_showNavbarWhenFingerprintSensorBusy" />
-
   <!-- Gesture Sensor -->
   <java-symbol type="bool" name="config_enableGestureService" />
 

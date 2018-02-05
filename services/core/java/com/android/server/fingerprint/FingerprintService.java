@@ -86,8 +86,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import com.android.internal.util.custom.NavbarUtils;
-
 /**
  * A service to manage multiple clients that want to access the fingerprint HAL API.
  * The service is responsible for maintaining a list of clients and dispatching all
@@ -141,7 +139,6 @@ public class FingerprintService extends SystemService implements IHwBinder.Death
     private ClientMonitor mPendingClient;
     private PerformanceStats mPerformanceStats;
 
-    private boolean mShouldShowNavbarWhenFingerprintSensorBusy = false;
 
     private IBinder mToken = new Binder(); // used for internal FingerprintService enumeration
     private LinkedList<Integer> mEnumeratingUserIds = new LinkedList<>();
@@ -490,9 +487,6 @@ public class FingerprintService extends SystemService implements IHwBinder.Death
         if (mPendingClient == null) {
             notifyClientActiveCallbacks(false);
         }
-        if (mShouldShowNavbarWhenFingerprintSensorBusy){
-            NavbarUtils.restoreNavigationBar(mContext, true);
-        }
     }
 
     private int getLockoutMode() {
@@ -578,10 +572,6 @@ public class FingerprintService extends SystemService implements IHwBinder.Death
                     + ", initiatedByClient = " + initiatedByClient + ")");
             notifyClientActiveCallbacks(true);
 
-            mShouldShowNavbarWhenFingerprintSensorBusy = NavbarUtils.shouldShowNavbarWhenFingerprintSensorBusy(mContext, mCurrentClient.getOwnerString());
-            if (mShouldShowNavbarWhenFingerprintSensorBusy){
-                NavbarUtils.lockNavigationBar(mContext);
-            }
             newClient.start();
         }
     }

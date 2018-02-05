@@ -26,8 +26,6 @@ import android.os.Handler;
 import android.os.ServiceManager;
 
 import com.android.internal.statusbar.IStatusBarService;
-import android.app.ActivityManagerNative;
-import android.app.KeyguardManager;
 
 public class NavbarUtils {
 
@@ -85,54 +83,23 @@ public class NavbarUtils {
     public static void lockNavigationBar(Context context){
         Settings.Secure.putIntForUser(context.getContentResolver(),
                 Settings.Secure.NAVIGATION_BAR_LOCKED, 1, UserHandle.USER_CURRENT);
-        FireActions.toggleNavigationBarDirectly(true);
+        toggleNavigationBarDirectly(true);
     }
 
     public static void restoreNavigationBar(Context context, Boolean toggle){
         Settings.Secure.putIntForUser(context.getContentResolver(),
                 Settings.Secure.NAVIGATION_BAR_LOCKED, 0, UserHandle.USER_CURRENT);
         if (toggle){
-            FireActions.toggleNavigationBarDirectly(isNavigationBarEnabled(context));
+            toggleNavigationBarDirectly(isNavigationBarEnabled(context));
         }
     }
-
-    private static final class FireActions {
-        private static IStatusBarService mStatusBarService = null;
-        private static IStatusBarService getStatusBarService() {
-            synchronized (FireActions.class) {
-                if (mStatusBarService == null) {
-                    mStatusBarService = IStatusBarService.Stub.asInterface(
-                            ServiceManager.getService("statusbar"));
-                }
-                return mStatusBarService;
-            }
-        }
-
-        public static void toggleNavigationBarDirectly(boolean toggle) {
-            IStatusBarService service = getStatusBarService();
-            if (service != null) {
-                try {
-                    service.toggleNavigationBar(toggle);
-                } catch (RemoteException e) {
-                    // do nothing.
-                }
-            }
-        }
-    }
-
-    public static boolean shouldShowNavbarWhenFingerprintSensorBusy(Context context, String clientPackageName){
-        boolean isInLockTaskMode = false;
+    
+    private static void toggleNavigationBarDirectly(boolean toggle){
         try {
-            isInLockTaskMode = ActivityManagerNative.getDefault().isInLockTaskMode();
+            IStatusBarService mStatusBarService = IStatusBarService.Stub.asInterface(ServiceManager.getService("statusbar"));
+            mStatusBarService.toggleNavigationBar(toggle);
         } catch (RemoteException e) {
         }
-        if (NavbarUtils.shouldShowNavbarInLockTaskMode(context) && isInLockTaskMode){
-            return false;
-        }
-        KeyguardManager km = (KeyguardManager) context.getSystemService(KeyguardManager.class);
-        boolean onKeyguard = km.isKeyguardLocked() || km.inKeyguardRestrictedInputMode();
-        boolean fromSystemUI = clientPackageName.equals("com.android.systemui") || clientPackageName.equals("android");
-        return context.getResources().getBoolean(com.android.internal.R.bool.config_showNavbarWhenFingerprintSensorBusy) && !onKeyguard && !fromSystemUI;
     }
 
     public static boolean shouldShowNavbarInLockTaskMode(Context context){
