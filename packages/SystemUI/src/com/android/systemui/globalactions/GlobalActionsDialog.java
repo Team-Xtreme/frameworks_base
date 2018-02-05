@@ -309,6 +309,14 @@ class GlobalActionsDialog implements DialogInterface.OnDismissListener, DialogIn
         }
     }
 
+    private boolean isInLockTaskMode() {
+        try {
+            return ActivityManagerNative.getDefault().isInLockTaskMode();
+        } catch (RemoteException e) {
+            return false;
+        }
+    }
+
     /**
      * Create the global actions dialog.
      *
@@ -486,7 +494,7 @@ class GlobalActionsDialog implements DialogInterface.OnDismissListener, DialogIn
                 boolean keyguardLocked = km.inKeyguardRestrictedInputMode() && km.isKeyguardSecure();
                 if (Settings.System.getInt(mContext.getContentResolver(),
                         Settings.System.POWERMENU_REBOOT, 1) == 1 && Settings.System.getInt(mContext.getContentResolver(),
-                        Settings.System.POWERMENU_ADVANCED_REBOOT, 0) != 0 && !keyguardLocked) {
+                        Settings.System.POWERMENU_ADVANCED_REBOOT, 0) != 0 && !keyguardLocked && !isInLockTaskMode()) {
                     mItems.add(mShowAdvancedToggles);
                 }
             } else if (GLOBAL_ACTION_KEY_SCREENSHOT.equals(actionKey)) {
