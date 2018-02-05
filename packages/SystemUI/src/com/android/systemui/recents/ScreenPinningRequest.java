@@ -50,8 +50,6 @@ import java.util.ArrayList;
 import static com.android.systemui.util.leak.RotationUtils.ROTATION_LANDSCAPE;
 import static com.android.systemui.util.leak.RotationUtils.ROTATION_SEASCAPE;
 
-import com.android.internal.util.custom.NavbarUtils;
-
 public class ScreenPinningRequest implements View.OnClickListener {
 
     private final Context mContext;
@@ -63,8 +61,6 @@ public class ScreenPinningRequest implements View.OnClickListener {
 
     // Id of task to be pinned or locked.
     private int taskId;
-    
-    private boolean okButtonTouched = false;
 
     public ScreenPinningRequest(Context context) {
         mContext = context;
@@ -78,10 +74,6 @@ public class ScreenPinningRequest implements View.OnClickListener {
         if (mRequestWindow != null) {
             mWindowManager.removeView(mRequestWindow);
             mRequestWindow = null;
-        }
-        if (!okButtonTouched && NavbarUtils.shouldShowNavbarInLockTaskMode(mContext)){
-            NavbarUtils.setNavigationBarEnabled(mContext, NavbarUtils.isNavigationBarPreviouslyEnabled(mContext));
-            NavbarUtils.setNavigationBarPreviouslyEnabled(mContext);
         }
     }
 
@@ -128,7 +120,6 @@ public class ScreenPinningRequest implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.screen_pinning_ok_button || mRequestWindow == v) {
-            okButtonTouched = true;
             try {
                 ActivityManager.getService().startSystemLockTaskMode(taskId);
             } catch (RemoteException e) {}
@@ -167,11 +158,6 @@ public class ScreenPinningRequest implements View.OnClickListener {
             mWindowManager.getDefaultDisplay().getMetrics(metrics);
             float density = metrics.density;
             int rotation = RotationUtils.getRotation(mContext);
-
-            if (NavbarUtils.shouldShowNavbarInLockTaskMode(mContext)){
-                NavbarUtils.setNavigationBarPreviouslyEnabled(mContext);
-                NavbarUtils.setNavigationBarEnabled(mContext,true);
-            }
 
             inflateView(rotation);
             int bgColor = mContext.getColor(
