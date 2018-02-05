@@ -4880,6 +4880,15 @@ public class StatusBar extends SystemUI implements DemoMode,
             mStatusBarWindowManager.setKeyguardDark(useDarkText);
         }
     }
+    
+    private void updateThemeAndReinflate(){
+        updateTheme();
+        mHandler.postDelayed(() -> {
+            if (mStatusBarView != null) {
+                reinflateViews();
+            }
+        }, 1000);
+    }
 
     private void updateDozingState() {
         Trace.traceCounter(Trace.TRACE_TAG_APP, "dozing", mDozing ? 1 : 0);
@@ -6042,11 +6051,21 @@ public class StatusBar extends SystemUI implements DemoMode,
             resolver.registerContentObserver(Settings.System.getUriFor(
                     Settings.System.FORCE_AMBIENT_FOR_MEDIA),
                     false, this, UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.SYSTEM_THEME_CURRENT_OVERLAY),
+                    false, this, UserHandle.USER_ALL);
         }
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
-            update();
+            if (uri.equals(Settings.System.getUriFor(
+                    Settings.System.SYSTEM_THEME_STYLE)) || uri.equals(Settings.System.getUriFor(
+                    Settings.System.SYSTEM_THEME_CURRENT_OVERLAY))) {
+                updateThemeAndReinflate();
+            } else if (uri.equals(Settings.System.getUriFor(
+                    Settings.System.FORCE_AMBIENT_FOR_MEDIA))) {
+                setForceAmbient();
+            }
         }
 
         public void update() {

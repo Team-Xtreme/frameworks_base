@@ -4099,6 +4099,12 @@ public final class Settings {
          */
         public static final String SYSTEM_THEME_STYLE = "system_theme_style";
 
+        /**
+         * Current theme overlay
+         * @hide
+         */
+        public static final String SYSTEM_THEME_CURRENT_OVERLAY = "system_theme_current_overlay";
+
        /**
          * Whether to display the reboot option in the power menu
          *
