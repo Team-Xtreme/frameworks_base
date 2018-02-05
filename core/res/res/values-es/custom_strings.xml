@@ -19,5 +19,9 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Su imagen del proveedor no coincide con el sistema. Por favor flashee la imagen <xliff:g id="string">%s</xliff:g> de su dispositivo</string>
   <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_preventpower">permlab_preventpower
+[CHAR LIMIT=NONE] El titulo de un permiso de aplicación, enumerado para que el usuario pueda elegir si desea permitir que la aplicación lo haga</string>
   <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_preventpower">permdesc_preventpower
+[CHAR LIMIT=NONE] Descripción de un permiso de aplicación, enumerado para que el usuario pueda elegir si desea permitir que la aplicación lo haga.</string>
 </resources>

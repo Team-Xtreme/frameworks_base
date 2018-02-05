@@ -27,7 +27,7 @@
   <string name="keyguard_plugged_in_dash_charging">Быстрая зарядка</string>
   <!-- Caffeine QS Tile -->
   <string name="quick_settings_caffeine_label">Запрет сна</string>
-  <string name="accessibility_quick_settings_caffeine_off">Запрет сна выкл</string>
+  <string name="accessibility_quick_settings_caffeine_off">Запрет сна выкл.</string>
   <string name="accessibility_quick_settings_caffeine_on">Запрет сна вкл.</string>
   <!-- Sound QS Tile -->
   <string name="quick_settings_sound_label">Звук</string>
@@ -61,5 +61,5 @@
   <string name="global_action_restart_hot">Быстрая перезагрузка</string>
   <string name="global_action_screenshot">Скриншот</string>
   <!-- QS customizer -->
-  <string name="drag_or_tap_to_add_tiles">Перетащите или нажмите, чтобы добавить элементы</string>
+  <string name="drag_or_tap_to_add_tiles">Перетащите нужные элементы</string>
 </resources>

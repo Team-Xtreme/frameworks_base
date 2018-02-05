@@ -38,7 +38,7 @@
   <string name="quick_settings_locale_label">Bahasa</string>
   <string name="quick_settings_locale_more_locales_toast">Harap tentukan bahasa yang berbeda untuk menghidupkan fungsionalitas tombol</string>
   <!-- Reboot/Recovery QS Tile -->
-  <string name="quick_settings_reboot_label">Boot ulang</string>
+  <string name="quick_settings_reboot_label">Nyalakan Ulang</string>
   <string name="quick_settings_reboot_recovery_label">Pemulihan</string>
   <!-- Screenshot QS tile -->
   <string name="quick_settings_screenshot_label">Tangkapan layar</string>
@@ -49,7 +49,7 @@
   <string name="lockscreen_default">Standar</string>
   <string name="lockscreen_hidden">Kosong</string>
   <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
-  <string name="custom_hint">Gesek dari ikon yang diluncurkan</string>
+  <string name="custom_hint">Usap dari ikon untuk meluncurkan</string>
   <!-- Screenshot Delete Toast -->
   <string name="delete_screenshot_toast">Tangkapan layar dihapus</string>
   <!-- Global actions -->
