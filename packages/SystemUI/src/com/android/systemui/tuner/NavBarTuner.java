@@ -68,6 +68,8 @@ import android.support.v14.preference.SwitchPreference;
 
 import java.util.ArrayList;
 
+import com.android.internal.util.custom.NavbarUtils;
+
 public class NavBarTuner extends TunerPreferenceFragment {
 
     private static final String LAYOUT = "layout";
