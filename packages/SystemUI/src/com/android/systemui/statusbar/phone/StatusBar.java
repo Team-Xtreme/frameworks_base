@@ -273,9 +273,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
-import com.android.internal.util.custom.NavbarUtils;
-import android.app.ActivityManagerNative;
-
 import com.android.systemui.custom.Themes;
 
 public class StatusBar extends SystemUI implements DemoMode,
@@ -1131,21 +1128,10 @@ public class StatusBar extends SystemUI implements DemoMode,
             mNotificationPanelDebugText.setVisibility(View.VISIBLE);
         }
 
-        boolean isInLockTaskMode = false;
-        try {
-            isInLockTaskMode = ActivityManagerNative.getDefault().isInLockTaskMode();
-        } catch (RemoteException e) {
-        }
-        if (isInLockTaskMode && NavbarUtils.shouldShowNavbarInLockTaskMode(mContext)){
-            NavbarUtils.lockNavigationBar(mContext);
-        }else{
-            NavbarUtils.restoreNavigationBar(mContext, false);
-        }
-
         try {
             boolean showNav = mWindowManagerService.hasNavigationBar();
             if (DEBUG) Log.v(TAG, "hasNavigationBar=" + showNav);
-            if (showNav || NavbarUtils.isNavigationBarLocked(mContext)) {
+            if (showNav) {
                 createNavigationBar();
             }
         } catch (RemoteException ex) {

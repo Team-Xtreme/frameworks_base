@@ -7408,10 +7408,10 @@ public final class Settings {
         public static final String NAVIGATION_BAR_ENABLED = "navigation_bar_enabled";
 
         /**
-         * Whether navigation bar is locked
+         * Whether navigation bar is previously enabled
          * @hide
          */
-        public static final String NAVIGATION_BAR_LOCKED = "navigation_bar_locked";
+        public static final String NAVIGATION_BAR_PREVIOUSLY_ENABLED = "navigation_bar_previously_enabled";
 
         /**
          * This are the settings to be backed up.

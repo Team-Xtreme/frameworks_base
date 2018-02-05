@@ -4620,7 +4620,8 @@ public class ActivityStackSupervisor extends ConfigurationContainer implements D
                         mLockTaskModeState = LOCK_TASK_MODE_NONE;
                     }
                     if (NavbarUtils.shouldShowNavbarInLockTaskMode(mService.mContext)){
-                        NavbarUtils.restoreNavigationBar(mService.mContext, true);
+                        NavbarUtils.setNavigationBarEnabled(mService.mContext, NavbarUtils.isNavigationBarPreviouslyEnabled(mService.mContext));
+                        NavbarUtils.setNavigationBarPreviouslyEnabled(mService.mContext);
                     }
                 } break;
                 case SHOW_LOCK_TASK_ESCAPE_MESSAGE_MSG: {
