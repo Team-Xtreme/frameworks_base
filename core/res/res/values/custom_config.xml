@@ -64,9 +64,6 @@
     <bool name="config_deviceHasVariableButtonBrightness">false</bool>    
     <bool name="config_deviceHasButtonBacklight">false</bool>
 
-    <!--  Whether to show navbar in lock task mode -->
-    <bool name="config_showNavbarInLockTaskMode">false</bool>
-
     <!-- display for radio tech -->
     <bool name="config_display_rat">true</bool>
 
