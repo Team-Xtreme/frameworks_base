@@ -18,8 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Su imagen del proveedor no coincide con el sistema. Por favor flashee la imagen <xliff:g id="string">%s</xliff:g> de su dispositivo</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_preventpower">anular tecla de encendido</string>
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_preventpower">Permite que una aplicación anule la tecla de encendido.</string>
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">Para liberar esta pantalla, mantén pulsado el botón Atrás</string>
+  <string name="lock_to_app_toast_power">Para liberar esta pantalla, mantén pulsado el botón de Encendido</string>
 </resources>

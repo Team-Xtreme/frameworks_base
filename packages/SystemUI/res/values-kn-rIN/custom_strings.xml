@@ -28,6 +28,7 @@
   <string name="quick_settings_sound_label">ಶಬ್ಧ</string>
   <string name="quick_settings_sound_ring">ರಿಂಗ್</string>
   <string name="quick_settings_sound_dnd">ಡು ನಾಟ್ ಡಿಶ್ಟರ್ಬ್</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">ಭಾಷೆಗಳು</string>
   <string name="quick_settings_locale_more_locales_toast">ಟಾಗಲ್ ಕಾರ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಬಹು ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
@@ -55,4 +56,5 @@
   <string name="global_action_screenshot">ಸ್ಕ್ರೀನ್‍ಶಾಟ್</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">ನೀವು ಬಯಸುವ ಆಯ್ಕೆ/ಅಂಚುಗಳನ್ನು ಆರಿಸಿ ಎಳೆಯಿರಿ ಅಥವಾ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+  <!-- Screen pinning exit mode -->
 </resources>

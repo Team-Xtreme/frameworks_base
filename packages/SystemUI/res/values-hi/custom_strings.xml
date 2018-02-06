@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">रिंग</string>
   <string name="quick_settings_sound_vibrate">कंपन</string>
   <string name="quick_settings_sound_dnd">परेशान ना करें</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">भाषा</string>
   <string name="quick_settings_locale_more_locales_toast">कृपया टॉगल कार्यक्षमता सक्षम करने के लिए एक से अधिक भाषाओं को कॉन्फ़िगर करें</string>
@@ -62,4 +63,5 @@
   <string name="global_action_screenshot">स्क्रीनशॉट</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles"> टाइल जोड़ने के लिए दबाएँ या दबा कर खींचें</string>
+  <!-- Screen pinning exit mode -->
 </resources>

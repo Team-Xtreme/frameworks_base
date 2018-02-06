@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">Klingeln</string>
   <string name="quick_settings_sound_vibrate">Vibrieren</string>
   <string name="quick_settings_sound_dnd">Nicht stören</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Sprache</string>
   <string name="quick_settings_locale_more_locales_toast">Bitte richten Sie mehrere Sprachen ein, um die Umschaltfunktion zu aktivieren</string>
@@ -62,4 +63,5 @@
   <string name="global_action_screenshot">Bildschirmfoto</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Ziehen oder tippen Sie, um Kacheln hinzuzufügen</string>
+  <!-- Screen pinning exit mode -->
 </resources>

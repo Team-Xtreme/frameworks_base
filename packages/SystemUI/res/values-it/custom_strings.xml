@@ -34,6 +34,12 @@
   <string name="quick_settings_sound_ring">Suona</string>
   <string name="quick_settings_sound_vibrate">Vibra</string>
   <string name="quick_settings_sound_dnd">Non disturbare</string>
+  <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Notifiche a comparsa</string>
+  <string name="accessibility_quick_settings_heads_up_off">Notifiche a comparsa non attive.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Notifiche a comparsa attive.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Notifiche a comparsa disattivate.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Notifiche a comparsa attivate.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Lingua</string>
   <string name="quick_settings_locale_more_locales_toast">Configura più lingue per abilitare la funzionalità toggle</string>
@@ -62,4 +68,9 @@
   <string name="global_action_screenshot">Screenshot</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Trascina o premi per aggiungere tiles</string>
+  <!-- Screen pinning exit mode -->
+  <string name="screen_pinning_description_back">Questo li visualizza fino a quando non vengono rimossi. Toccare e tenere premuto nuovamente il pulsante per sbloccare.</string>
+  <string name="screen_pinning_description_power">Questo li visualizza fino a quando non vengono rimossi. Tocca e tieni premuto nuovamente il pulsante di alimentazione per sbloccare.</string>
+  <string name="screen_pinning_description_back_nav_visible">Questo li visualizza fino a quando non vengono rimossi. Tocca e tieni premuto nuovamente il pulsante o tocca i pulsanti evidenziati sulla barra di navigazione per sbloccare.</string>
+  <string name="screen_pinning_description_power_nav_visible">Questo li visualizza fino a quando non vengono rimossi. Tocca e tieni premuto il pulsante di alimentazione o toccare i pulsanti evidenziati sulla barra di navigazione per sbloccare.</string>
 </resources>

@@ -19,6 +19,5 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">आपली विक्रेता प्रतिमा सिस्टमशी जुळत नाही.कृपया फ्लॅश करा<xliff:g id="string">%s</xliff:g>
 आपल्या डिव्हाइससाठी विक्रेता प्रतिमा</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Screen pinning exit mode -->
 </resources>

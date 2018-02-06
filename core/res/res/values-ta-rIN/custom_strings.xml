@@ -18,6 +18,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">விற்பனையாளர் படத்தை முறை பொருந்தவில்லை. உங்கள் சாதனத்தில் <xliff:g id="string">%s </xliff:g> விற்பனையாளர் படத்தை ஃப்ளாஷ்</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Screen pinning exit mode -->
 </resources>

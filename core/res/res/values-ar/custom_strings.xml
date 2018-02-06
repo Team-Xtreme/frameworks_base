@@ -19,6 +19,7 @@
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">صورة المورد الخاص بك لا تتطابق مع هذا النظام. الرجاء عمل فلاش للصورة 
 <xliff:g id="string">%s</xliff:g>من جهازك</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">لإلغاء تثبيت هذه الشاشة, استمر بالضغط على زر الرجوع</string>
+  <string name="lock_to_app_toast_power">لإلغاء تثبيت هذه الشاشة, استمر بالضغط على زر التشغيل</string>
 </resources>

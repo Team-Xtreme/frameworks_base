@@ -18,8 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">L\'immagine del produttore non corrisponde a quella del sistema. Si prega di aggiornare <xliff:g id="string">%s</xliff:g> immagine del produttore per il tuo dispositivo</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_preventpower">riassegna il tasto di accensione</string>
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_preventpower">Consenti all\'app di cambiare il comportamento del pulsante di accensione.</string>
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">Per sbloccare questa schermata, tocca e tieni premuto il pulsante Indietro</string>
+  <string name="lock_to_app_toast_power">Per rimuovere questa schermata, tocca e tieni premuto il pulsante di accensione</string>
+  <string name="lock_to_app_toast_back_nav_visible">Per rimuovere questa schermata, toccare e tenere premuto il tasto accensione o toccare e tenere premuto il tasto indietro e il tasto panoramica sulla barra di navigazione</string>
+  <string name="lock_to_app_toast_power_nav_visible">Per sbloccare questa schermata, toccare e tenere premuto il pulsante di accensione o toccare e tenere premuto il tasto indietro e panoramica sulla barra di navigazione</string>
 </resources>

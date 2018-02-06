@@ -34,6 +34,12 @@
   <string name="quick_settings_sound_ring">Dering</string>
   <string name="quick_settings_sound_vibrate">Getar</string>
   <string name="quick_settings_sound_dnd">Jangan ganggu</string>
+  <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Notifikasi mengambang</string>
+  <string name="accessibility_quick_settings_heads_up_off">Notifikasi mengambang mati.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Notifikasi mengambang hidup.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Notifikasi mengambang dinonaktifkan.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Notifikasi mengambang diaktifkan.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Bahasa</string>
   <string name="quick_settings_locale_more_locales_toast">Harap tentukan bahasa yang berbeda untuk menghidupkan fungsionalitas tombol</string>
@@ -62,4 +68,9 @@
   <string name="global_action_screenshot">Tangkapan layar</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Tarik atau ketuk untuk menambahkan ubin</string>
+  <!-- Screen pinning exit mode -->
+  <string name="screen_pinning_description_back">Hal ini membuatnya tetap dalam pandangan sampai Anda melepas sematan. Sentuh dan tahan tombol kembali untuk melepas sematan.</string>
+  <string name="screen_pinning_description_power">Hal ini membuatnya tetap dalam pandangan sampai Anda melepas sematan. Sentuh dan tahan tombol Daya untuk melepas sematan.</string>
+  <string name="screen_pinning_description_back_nav_visible">Hal ini membuatnya tetap dalam pandangan sampai Anda melepas sematan. Sentuh san tahan tombol Kembali atau ketuk tombol yang disorot di bilah navigasi untuk melepas sematan.</string>
+  <string name="screen_pinning_description_power_nav_visible">Hal ini membuatnya tetap dalam pandangan sampai Anda melepas sematan. Sentuh san tahan tombol Daya atau ketuk tombol yang disorot di bilah navigasi untuk melepas sematan.</string>
 </resources>

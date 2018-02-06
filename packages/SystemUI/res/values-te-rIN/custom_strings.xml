@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">రింగ్</string>
   <string name="quick_settings_sound_vibrate">కదలుట</string>
   <string name="quick_settings_sound_dnd">డిస్టర్బ్ చేయకు</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">భాష</string>
   <string name="quick_settings_locale_more_locales_toast">దయచేసి టోగుల్ కార్యాచరణను ప్రారంభించడానికి బహుళ భాషలను కాన్ఫిగర్ చేయండి</string>
@@ -62,4 +63,5 @@
   <string name="global_action_screenshot">స్క్రీన్‌షాట్</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">పలకలను జోడించడానికి లాగండి లేదా నొక్కండి</string>
+  <!-- Screen pinning exit mode -->
 </resources>

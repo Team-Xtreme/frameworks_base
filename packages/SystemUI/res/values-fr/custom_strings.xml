@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">Sonnerie</string>
   <string name="quick_settings_sound_vibrate">Vibrer</string>
   <string name="quick_settings_sound_dnd">Ne pas déranger</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Langues</string>
   <string name="quick_settings_locale_more_locales_toast">Veuillez configurer plusieurs langues pour utiliser cette fonctionnalité</string>
@@ -62,4 +63,5 @@
   <string name="global_action_screenshot">Capture d\'écran</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Faites glisser ou appuyez pour ajouter des tuiles</string>
+  <!-- Screen pinning exit mode -->
 </resources>

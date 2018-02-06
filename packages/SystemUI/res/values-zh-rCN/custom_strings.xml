@@ -34,6 +34,12 @@
   <string name="quick_settings_sound_ring">响铃</string>
   <string name="quick_settings_sound_vibrate">震动</string>
   <string name="quick_settings_sound_dnd">请勿打扰</string>
+  <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">浮动通知</string>
+  <string name="accessibility_quick_settings_heads_up_off">关闭浮动通知</string>
+  <string name="accessibility_quick_settings_heads_up_on">开启浮动通知</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">浮动通知已关闭</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">浮动通知已打开</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">语言</string>
   <string name="quick_settings_locale_more_locales_toast">请配置多种语言以使用切换功能</string>
@@ -62,4 +68,9 @@
   <string name="global_action_screenshot">屏幕截图</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">拖动或点击以添加快捷设置磁块</string>
+  <!-- Screen pinning exit mode -->
+  <string name="screen_pinning_description_back">这将会固定显示此屏幕，直到您取消固定为止。触摸并按住“返回”即可取消固定屏幕。</string>
+  <string name="screen_pinning_description_power">这将会固定显示此屏幕，直到您取消固定为止。触摸并按住电源键即可取消固定。</string>
+  <string name="screen_pinning_description_back_nav_visible">屏幕将会固定于当前状态直到您取消屏幕固定，长按返回键或轻触位于导航栏上的高亮按钮来取消固定屏幕</string>
+  <string name="screen_pinning_description_power_nav_visible">屏幕将会固定于当前状态直到您取消屏幕固定，长按电源键或轻触位于导航栏上的高亮按钮来取消固定屏幕</string>
 </resources>

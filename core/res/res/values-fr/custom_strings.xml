@@ -18,8 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Le système ne correspond pas à votre appareil. Veuillez flasher <xliff:g id="string">%s</xliff:g> version adaptée à votre appareil</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_preventpower">remplacer le bouton l\'alimentation</string>
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_preventpower">Autoriser une application à remplacer le bouton d\'alimentation.</string>
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">Pour déverrouiller l’écran, appuyez et maintenez le bouton retour</string>
+  <string name="lock_to_app_toast_power">Pour déverrouiller l’écran, appuyez et maintenez le bouton d\'alimentation</string>
 </resources>

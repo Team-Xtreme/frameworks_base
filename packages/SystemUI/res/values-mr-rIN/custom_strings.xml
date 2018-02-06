@@ -24,6 +24,7 @@
   <string name="keyguard_plugged_in_dash_charging">डॅश चार्जिंग</string>
   <!-- Caffeine QS Tile -->
   <!-- Sound QS Tile -->
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <!-- Reboot/Recovery QS Tile -->
   <!-- Screenshot QS tile -->
@@ -33,4 +34,5 @@
   <!-- Screenshot Delete Toast -->
   <!-- Global actions -->
   <!-- QS customizer -->
+  <!-- Screen pinning exit mode -->
 </resources>

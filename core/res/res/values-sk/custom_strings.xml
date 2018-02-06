@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Váš dodávateľ obrazu sa nezhoduje so systémom. Prosím napáľte obraz pre vaše zariadenie <xliff:g id="string">%s</xliff:g></string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">Na odopnutie tejto obrazovky stlačte a podržte tlačidlo Späť</string>
+  <string name="lock_to_app_toast_power">Na odopnutie tejto obrazovky stlačte a podržte tlačidlo Napájanie</string>
 </resources>

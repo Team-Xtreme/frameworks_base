@@ -18,8 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Üretici dosyanız sisteminiz ile eşleşmiyor. Cihazınız için lütfen <xliff:g id="string">%s</xliff:g> üretici dosyasını flaşlayın</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_preventpower">güç tuşunu geçersiz kıl</string>
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_preventpower">Uygulamaya güç tuşunu geçersiz kılma izni verir.</string>
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">Bu ekranın sabitlemesini kaldırmak için, Geri tuşuna dokunun ve basılı tutun</string>
+  <string name="lock_to_app_toast_power">Bu ekranın sabitlemesini kaldırmak için, Güç tuşuna dokunun ve basılı tutun</string>
+  <string name="lock_to_app_toast_back_nav_visible">Bu ekran sabitlemesini iptal etmek için, Geri düğmesine dokunun ve basılı tutun veya Geri düğmesine dokunun ve basılı tutun ve gezinti çubuğunu gözden geçirin</string>
+  <string name="lock_to_app_toast_power_nav_visible">Bu ekran sabitlemesini iptal etmek için, Güç düğmesine dokunun ve basılı tutun veya Geri düğmesine dokunun ve basılı tutun ve gezinti çubuğunu gözden geçirin</string>
 </resources>

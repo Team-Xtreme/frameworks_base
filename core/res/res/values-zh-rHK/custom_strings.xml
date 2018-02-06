@@ -18,8 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">您的映像檔與系統不相符。 請刷入您的裝置 <xliff:g id="string">%s</xliff:g> 專用的映像檔。</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_preventpower">覆寫電源鍵</string>
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_preventpower">允許應用程式覆寫電源鍵的功能。</string>
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">如要取消固定這個畫面，請按住「返回」按鈕。</string>
+  <string name="lock_to_app_toast_power">如要取消固定這個畫面，請按住「電源」按鈕。</string>
+  <string name="lock_to_app_toast_back_nav_visible">欲取消固定此螢幕，請輕觸並按住「返回」鍵，或在導航列上輕觸並按住「返回」與「總覽」鍵</string>
+  <string name="lock_to_app_toast_power_nav_visible">欲取消固定此螢幕，請輕觸並按住「電源」鍵，或在導航列上輕觸並按住「返回」與「總覽」鍵</string>
 </resources>

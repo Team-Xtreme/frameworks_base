@@ -18,8 +18,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">Образ не соответствует системе. Пожалуйста прошейте образ <xliff:g id="string">%s</xliff:g> для вашего устройства</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permlab_preventpower">Изменить действие кнопки питания</string>
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <string name="permdesc_preventpower">Разрешает приложению изменять действие кнопки питания.</string>
+  <!-- Screen pinning exit mode -->
+  <string name="lock_to_app_toast_back">Чтобы открепить экран, нажмите и удерживайте кнопку «Назад»</string>
+  <string name="lock_to_app_toast_power">Чтобы открепить экран, нажмите и удерживайте кнопку питания</string>
+  <string name="lock_to_app_toast_back_nav_visible">Чтобы открепить экран, нажмите и удерживайте кнопку или нажмите и удерживайте и обзор на панели навигации</string>
 </resources>
