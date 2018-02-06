@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">રીંગ</string>
   <string name="quick_settings_sound_vibrate">કંપન</string>
   <string name="quick_settings_sound_dnd">પરેશાન ના કરો</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">ભાષા</string>
   <string name="quick_settings_locale_more_locales_toast">ટૉગલ કાર્યક્ષમતાને સક્ષમ કરવા માટે બહુવિધ ભાષાને ગોઠવો</string>
@@ -61,4 +62,5 @@
   <string name="global_action_restart_hot">ઝડપી રીબુટ</string>
   <string name="global_action_screenshot">સ્ક્રીનશોટ</string>
   <!-- QS customizer -->
+  <!-- Screen pinning exit mode -->
 </resources>

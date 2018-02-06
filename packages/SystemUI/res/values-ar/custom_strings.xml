@@ -35,6 +35,7 @@
   <string name="quick_settings_sound_ring">رنين</string>
   <string name="quick_settings_sound_vibrate">اهتزاز</string>
   <string name="quick_settings_sound_dnd">عدم الإزعاج</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">اللغة</string>
   <string name="quick_settings_locale_more_locales_toast">الرجاء القيام بتهيئة لغات متعددة لتمكين وظيفة التبديل</string>
@@ -63,4 +64,5 @@
   <string name="global_action_screenshot">لقطة الشاشة</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">اسحب أو انقر لإضافة مربعات</string>
+  <!-- Screen pinning exit mode -->
 </resources>

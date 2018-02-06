@@ -34,6 +34,8 @@
   <string name="quick_settings_sound_ring">Звонок</string>
   <string name="quick_settings_sound_vibrate">Вибрация</string>
   <string name="quick_settings_sound_dnd">Не беспокоить</string>
+  <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Язык</string>
   <string name="quick_settings_locale_more_locales_toast">Пожалуйста, настройте несколько языков, чтобы активировать функцию переключения между ними</string>
@@ -62,4 +64,7 @@
   <string name="global_action_screenshot">Скриншот</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Перетащите нужные элементы</string>
+  <!-- Screen pinning exit mode -->
+  <string name="screen_pinning_description_back">Это приложение останется активным, пока вы не отмените блокировку долгим нажатием кнопки «Назад».</string>
+  <string name="screen_pinning_description_power">Это приложение останется активным, пока вы не отмените блокировку долгим нажатием кнопки блокировки.</string>
 </resources>

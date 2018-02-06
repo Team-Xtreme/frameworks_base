@@ -26,14 +26,20 @@
   <string name="keyguard_indication_dash_charging_time">در حال دش شارژ (<xliff:g id="charging_time_left" example="4 ساعت و 2 دقیقه">%s</xliff:g> تا پر‌شدن کامل)</string>
   <string name="keyguard_plugged_in_dash_charging">در حال دش شارژ</string>
   <!-- Caffeine QS Tile -->
-  <string name="quick_settings_caffeine_label">کافئین</string>
-  <string name="accessibility_quick_settings_caffeine_off">کافئین خاموش</string>
-  <string name="accessibility_quick_settings_caffeine_on">کافئین روشن</string>
+  <string name="quick_settings_caffeine_label">حالت کافئین</string>
+  <string name="accessibility_quick_settings_caffeine_off">حالت کافئین خاموش</string>
+  <string name="accessibility_quick_settings_caffeine_on">حالت کافئین روشن</string>
   <!-- Sound QS Tile -->
   <string name="quick_settings_sound_label">صدا</string>
   <string name="quick_settings_sound_ring">زنگ</string>
   <string name="quick_settings_sound_vibrate">لرزش</string>
   <string name="quick_settings_sound_dnd">مزاحم نشوید</string>
+  <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">اعلان فوری</string>
+  <string name="accessibility_quick_settings_heads_up_off">اعلان فوری خاموش.</string>
+  <string name="accessibility_quick_settings_heads_up_on">اعلان فوری روشن.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">اعلان فوری خاموش شد.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">اعلان فوری روشن شد.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">زبان</string>
   <string name="quick_settings_locale_more_locales_toast">لطفا برای فعال کردن قابلیت تغییر وضعیت، زبان‌های بیشتری تنظیم کنید</string>
@@ -62,4 +68,5 @@
   <string name="global_action_screenshot">عکس گرفتن از صفحه</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">برای افزودن، کاشی‌ها را بکشید یا روی آن‌ها ضربه بزنید</string>
+  <!-- Screen pinning exit mode -->
 </resources>

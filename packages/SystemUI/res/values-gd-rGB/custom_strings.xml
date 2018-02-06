@@ -23,6 +23,7 @@
   <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
   <!-- Caffeine QS Tile -->
   <!-- Sound QS Tile -->
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <!-- Reboot/Recovery QS Tile -->
   <!-- Screenshot QS tile -->
@@ -32,4 +33,5 @@
   <!-- Screenshot Delete Toast -->
   <!-- Global actions -->
   <!-- QS customizer -->
+  <!-- Screen pinning exit mode -->
 </resources>

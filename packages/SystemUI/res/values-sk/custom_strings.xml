@@ -34,6 +34,12 @@
   <string name="quick_settings_sound_ring">Zvonenie</string>
   <string name="quick_settings_sound_vibrate">Vibrácie</string>
   <string name="quick_settings_sound_dnd">Nevyrušovať</string>
+  <!-- Heads Up QS Tile -->
+  <string name="quick_settings_heads_up_label">Plávajúce upozornenia</string>
+  <string name="accessibility_quick_settings_heads_up_off">Plávajúce upozornenia vypnuté.</string>
+  <string name="accessibility_quick_settings_heads_up_on">Plávajúce upozornenia zapnuté.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Plávajúce oznámenia boli vypnuté.</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Plávajúce oznámenia boli zapnuté.</string>
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Jazyk</string>
   <string name="quick_settings_locale_more_locales_toast">Prosím nastavte prepínač umožňujúci viacej jazykov</string>
@@ -62,4 +68,9 @@
   <string name="global_action_screenshot">Snímka obrazovky</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Ťahaním alebo kliknutím pridať dlaždice</string>
+  <!-- Screen pinning exit mode -->
+  <string name="screen_pinning_description_back">Obsah bude pripnutý v zobrazení, až kým ho neuvoľníte. Uvoľníte ho stlačením a podržaním tlačidla Späť.</string>
+  <string name="screen_pinning_description_power">Obsah bude pripnutý v zobrazení, až kým ho neuvoľníte. Uvoľníte ho stlačením a podržaním tlačidla Napájanie.</string>
+  <string name="screen_pinning_description_back_nav_visible">Obsah bude pripnutý v zobrazení, až kým ho neuvoľníte. Uvoľníte ho stlačením a podržaním tlačidla Späť alebo kliknite na zvýraznené tlačidlá na navigačnom paneli.</string>
+  <string name="screen_pinning_description_power_nav_visible">Obsah bude pripnutý v zobrazení, až kým ho neuvoľníte. Uvoľníte ho stlačením a podržaním tlačidla Napájanie alebo kliknite na zvýraznené tlačidlá na navigačnom paneli.</string>
 </resources>

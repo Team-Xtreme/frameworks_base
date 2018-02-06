@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">ரிங்</string>
   <string name="quick_settings_sound_vibrate">அதிர்வு</string>
   <string name="quick_settings_sound_dnd">தொந்தரவு செய்ய வேண்டாம்</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">மொழி</string>
   <string name="quick_settings_locale_more_locales_toast">செயல்பாட்டை மாற்றுவதற்கு பல மொழிகளையும் கட்டமைக்கவும்</string>
@@ -62,4 +63,5 @@
   <string name="global_action_screenshot">ஸ்கிரீன்ஷாட்</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">ஓடுகளை சேர்க்க தட்டவும் அல்லது தொட்டு இழுக்கவும்</string>
+  <!-- Screen pinning exit mode -->
 </resources>

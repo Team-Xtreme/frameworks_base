@@ -18,6 +18,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Vendor mismatched fingerprint warning [CHAR LIMIT=NONE] -->
   <string name="system_error_vendorprint">તમારી વિક્રેતાની છબી સિસ્ટમ સાથે મેળ ખાતી નથી. તમારા ઉપકરણ <xliff:g id="string">%s</xliff:g> માટે વિક્રેતા છબી ફ્લેશ કરો</string>
-  <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Screen pinning exit mode -->
 </resources>

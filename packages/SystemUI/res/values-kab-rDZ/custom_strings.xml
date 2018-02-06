@@ -34,6 +34,7 @@
   <string name="quick_settings_sound_ring">Aṭenṭen</string>
   <string name="quick_settings_sound_vibrate">Ngugu</string>
   <string name="quick_settings_sound_dnd">ur smermed ara</string>
+  <!-- Heads Up QS Tile -->
   <!-- Language toggle tile -->
   <string name="quick_settings_locale_label">Tutlayt</string>
   <string name="quick_settings_locale_more_locales_toast">Sbadu ddeqs n tutlayin akken ad tesqedceḍ tamahilt-agi</string>
@@ -62,4 +63,5 @@
   <string name="global_action_screenshot">Tuṭṭfa n ugdil</string>
   <!-- QS customizer -->
   <string name="drag_or_tap_to_add_tiles">Zuɣeṛ neɣ senned i tmerniwt n tiḥjuṛin</string>
+  <!-- Screen pinning exit mode -->
 </resources>
